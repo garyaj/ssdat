@@ -27,14 +27,14 @@
 # type => 'page',
 # url => "/$filename.html",
 package MusicData;
-use Moo::Role;
+use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
 use Mojo::Template;
 
 has uniqid        => (isa => Str, is => 'rw');
 has label         => (isa => Str, is => 'rw');
-has lastpublished => (isa => Str, is => 'rw', required => 1, default => '');
-has lastupdated   => (isa => Str, is => 'rw', required => 1, default => 1386245606);
+has lastpublished => (isa => Str, is => 'rw', default => '');
+has lastupdated   => (isa => Str, is => 'rw', default => 1386245606);
 has layout        => (isa => Str, is => 'rw');
 has title         => (isa => Str, is => 'rw');
 has type          => (isa => Str, is => 'rw', default => 'page');
@@ -71,11 +71,31 @@ package Composers;
 use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
 use Config::Tiny;
-has composers => (isa => ArrayRef, is => 'rw');
+has composers => (isa => ArrayRef[InstanceOf['Composer']], is => 'rw', default => sub {[]});
 
-sub addcomposer {
+sub addrec {
+  #Search up composer hierarchy, adding parents if necessary,
+  #then push flds into composers, works, sections and parts
   my ($self, $flds) = @_;
-  push @{$self->composers}, Composer->new->initfromflds($flds);
+  my $o;
+  if (!@{$self->composers} or $self->composers->[-1] ne $flds->{composer}) {
+    $o = Composer->new;
+    $o->initfromflds($flds);
+    push @{$self->composers}, $o;
+  }
+  if (!@{$self->composers->[-1]->works} or $self->composers->[-1]->works->[-1]->work ne $flds->{work}) {
+    $o = ($flds->{genre} eq 'mass') ? MultiWork->new : SingleWork->new;
+    $o->initfromflds($flds);
+    push @{$self->composers->[-1]->works}, $o;
+  }
+  if (!@{$self->composers->[-1]->works->[-1]->sections} or $self->composers->[-1]->works->[-1]->sections->[-1]->section ne $flds->{section}) {
+    $o = Section->new;
+    $o->initfromflds($flds);
+    push @{$self->composers->[-1]->works->[-1]->sections}, $o;
+  }
+  $o = Part->new;
+  $o->initfromflds($flds);
+  push @{$self->composers->[-1]->works->[-1]->sections->[-1]->parts}, $o;
 }
 
 sub outputdat {
@@ -98,16 +118,18 @@ package Composer;
 use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
 extends 'MusicData';
-has composer => (isa => Str, is => 'rw', required => 1);
+has composer => (isa => Str, is => 'rw');
 has dcomposer => (isa => Str, is => 'rw');
-has works => (isa => ArrayRef, is => 'rw');
+has works => (isa => ArrayRef[InstanceOf['Work']], is => 'rw', default => sub {[]});
 has template => (isa => Str, is => 'rw', default => 'composer');
 sub initfromflds {
   my ($self, $flds) = @_;
   $self->uniqid($flds->{composer});
   $self->label($flds->{dcomposer});
   $self->initurl;
-  push @{$self->works}, MultiWork->new->initfromflds($flds);
+  my $o = ($flds->{genre} eq 'mass') ? MultiWork->new : SingleWork->new;
+  $o->initfromflds($flds);
+  push @{$self->works}, $o;
 }
 1;
 
@@ -116,59 +138,61 @@ use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
 extends 'MusicData';
 has [qw{genre work dwork} ] => (isa => Str, is => 'rw');
+has sections => (isa => ArrayRef[InstanceOf['Section']], is => 'rw', default => sub {[]});
+has template => (isa => Str, is => 'rw');
 sub initfromflds {
   my ($self, $flds) = @_;
   $self->uniqid($flds->{composer}.'-'.$flds->{work});
   $self->label($flds->{dcomposer}.' - '.$flds->{dwork});
   $self->initurl;
+  $self->genre($flds->{genre});
+  $self->work($flds->{work});
+  $self->dwork($flds->{dwork});
+  my $o = Section->new;
+  $o->initfromflds($flds);
+  push @{$self->sections}, $o;
 }
 1;
 
 package MultiWork;
 use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
-extends 'MusicData';
-has sections => (isa => ArrayRef[InstanceOf['Section']], is => 'rw');
-has template => (isa => Str, is => 'rw', default => 'mass');
-around 'initfromflds' => sub {
-  my $orig = shift;
-  my ($self, $flds) = @_;
-  $orig->($self, $flds);
-  push @{$self->sections}, Section->new->initfromflds($flds);
-};
+extends 'Work';
+has '+template' => (default => 'mass');
 1;
 
 package SingleWork;
 use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
 extends 'Work';
-has section => (isa => InstanceOf['Section'], is => 'rw');
-has template => (isa => Str, is => 'rw', default => 'song');
-around 'initfromflds' => sub {
-  my $orig = shift;
-  my ($self, $flds) = @_;
-  $orig->($self, $flds);
-  $self->section(Section->new->initfromflds($flds));
-};
+has '+template' => (default => 'song');
 1;
 
 package Section;
 use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
-has parts => (isa => ArrayRef, is => 'rw');
+has parts => (isa => ArrayRef[InstanceOf['Part']], is => 'rw', default => sub {[]});
 has [qw{section dsection} ] => (isa => Str, is => 'rw');
 sub initfromflds {
   my ($self, $flds) = @_;
-  push @{$self->parts}, Part->new->initfromflds($flds);
+  $self->section($flds->{section});
+  $self->dsection($flds->{dsection});
+  my $o = Part->new();
+  $o->initfromflds($flds);
+  push @{$self->parts}, $o;
 }
 1;
 
 package Part;
-use Moo::Role;
+use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
 has [qw{part gdid dpart ytid} ] => (isa => Str, is => 'rw');
 sub initfromflds {
   my ($self, $flds) = @_;
+  $self->part($flds->{part});
+  $self->gdid($flds->{gdid});
+  $self->dpart($flds->{dpart});
+  $self->ytid($flds->{ytid});
 }
 1;
 
@@ -183,19 +207,9 @@ $csv->column_names(@names);
 open my $fh, "<:encoding(utf8)", "gdytmerge.csv" or die "gdytmerge.csv: $!";
 
 my $composers = Composers->new();
-my $prevhr = {};
 while ( my $hr = $csv->getline_hr( $fh ) ) {
   next unless $hr->{work}; #ignore unparseable entries
-
-  if ($hr->{composer} ne $prevhr->{composer}) {
-    $composers->addcomposer($hr);
-  } elsif ($hr->{work} ne $prevhr->{work}) {
-    $composers->addwork($hr);
-  } elsif ($hr->{section} ne $prevhr->{section}) {
-    $composers->addsection($hr);
-  }
-  $composers->addpart($hr);
-  $prevhr = $hr;
+  $composers->addrec($hr);
 }
 
 $csv->eof or $csv->error_diag();
