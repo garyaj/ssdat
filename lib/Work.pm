@@ -9,8 +9,8 @@ has sections => (isa => ArrayRef[InstanceOf['Section']], is => 'rw', default => 
 sub initfromflds {
   my ($self, $flds) = @_;
   $self->uniqid($flds->{composer}.'-'.$flds->{work});
-  $self->label( ($flds->{dcomposer}?$flds->{dcomposer}:ucfirst($flds->{composer})).' - '.
-                ($flds->{dwork}?$flds->{dwork}:ucfirst($flds->{work})) );
+  $self->label( ucfirst(($flds->{dcomposer}?$flds->{dcomposer}:$flds->{composer})).' - '.
+                ucfirst(($flds->{dwork}?$flds->{dwork}:$flds->{work})) );
   $self->title($flds->{composer}.'-'.$flds->{work});
   $self->initurl;
   $self->genre($flds->{genre});

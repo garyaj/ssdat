@@ -11,7 +11,7 @@ has works => (isa => ArrayRef[InstanceOf['Work']], is => 'rw', default => sub {[
 sub initfromflds {
   my ($self, $flds) = @_;
   $self->uniqid($flds->{composer});
-  $self->label($flds->{dcomposer}?$flds->{dcomposer}:ucfirst($flds->{composer}));
+  $self->label(ucfirst($flds->{dcomposer}?$flds->{dcomposer}:$flds->{composer}));
   $self->title($flds->{composer});
   $self->initurl;
   $self->composer($flds->{composer});
@@ -34,7 +34,7 @@ sub tohtml {
 %   if ($first) {
 %     $first = 0;
 %   } else {
-<br />
+<br />\
 %   }
 <a href="<%= $work->url %>"><%= $work->label %></a>
 %   }

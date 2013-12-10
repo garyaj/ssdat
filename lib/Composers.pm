@@ -59,8 +59,26 @@ sub outputconfig {
 
 sub outputdir {
   my $self = shift;
-  foreach my $composer (@{$self->composers}) {
-  }
+  my $mt = Mojo::Template->new;
+  open my $out, ">", 'page/directory.dat' or die "directory: $!";
+  print $out $mt->render(<<'EOF', $self->composers);
+% use lib './lib';
+% use Composer;
+% my ($composers) = @_;
+<p align="left">
+% my $first = 1;
+% for my $composer (@$composers) {
+%   if ($first) {
+%     $first = 0;
+%   } else {
+<br />\
+%   }
+<a href="<%= $composer->url %>"><%= $composer->dcomposer %></a>
+%   }
+</p>
+EOF
+  close $out;
 }
+
 
 1;
