@@ -466,24 +466,6 @@ title=carol-onceinroyaldavidscity
 type=page
 url=/carol-onceinroyaldavidscity.html
 
-[carol-praisemysoul]
-label=Carol - Praisemysoul
-lastpublished=
-lastupdated=1386245606
-layout=work
-title=carol-praisemysoul
-type=page
-url=/carol-praisemysoul.html
-
-[carol-praisetotheholiest]
-label=Carol - Praisetotheholiest
-lastpublished=
-lastupdated=1386245606
-layout=work
-title=carol-praisetotheholiest
-type=page
-url=/carol-praisetotheholiest.html
-
 [carol-quempastores]
 label=Carol - Quempastores
 lastpublished=
@@ -528,24 +510,6 @@ layout=work
 title=carol-stillenacht
 type=page
 url=/carol-stillenacht.html
-
-[carol-strifeisoer]
-label=Carol - Strifeisoer
-lastpublished=
-lastupdated=1386245606
-layout=work
-title=carol-strifeisoer
-type=page
-url=/carol-strifeisoer.html
-
-[carol-takeupcross]
-label=Carol - Takeupcross
-lastpublished=
-lastupdated=1386245606
-layout=work
-title=carol-takeupcross
-type=page
-url=/carol-takeupcross.html
 
 [carol-theangelgabrielfromheavencame]
 label=carol - The angel Gabriel from heaven came
@@ -618,15 +582,6 @@ layout=work
 title=carol-virgingreat
 type=page
 url=/carol-virgingreat.html
-
-[carol-wepraisethyname]
-label=Carol - Wepraisethyname
-lastpublished=
-lastupdated=1386245606
-layout=work
-title=carol-wepraisethyname
-type=page
-url=/carol-wepraisethyname.html
 
 [casciolini]
 label=Casciolini
@@ -1176,6 +1131,60 @@ layout=work
 title=howells-likeasthehart
 type=page
 url=/howells-likeasthehart.html
+
+[hymn]
+label=Hymn
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=hymn
+type=page
+url=/hymn.html
+
+[hymn-praisemysoul]
+label=Hymn - Praisemysoul
+lastpublished=
+lastupdated=1386245606
+layout=work
+title=hymn-praisemysoul
+type=page
+url=/hymn-praisemysoul.html
+
+[hymn-praisetotheholiest]
+label=Hymn - Praisetotheholiest
+lastpublished=
+lastupdated=1386245606
+layout=work
+title=hymn-praisetotheholiest
+type=page
+url=/hymn-praisetotheholiest.html
+
+[hymn-strifeisoer]
+label=Hymn - Strifeisoer
+lastpublished=
+lastupdated=1386245606
+layout=work
+title=hymn-strifeisoer
+type=page
+url=/hymn-strifeisoer.html
+
+[hymn-takeupcross]
+label=Hymn - Takeupcross
+lastpublished=
+lastupdated=1386245606
+layout=work
+title=hymn-takeupcross
+type=page
+url=/hymn-takeupcross.html
+
+[hymn-wepraisethyname]
+label=Hymn - Wepraisethyname
+lastpublished=
+lastupdated=1386245606
+layout=work
+title=hymn-wepraisethyname
+type=page
+url=/hymn-wepraisethyname.html
 
 [ireland]
 label=Ireland

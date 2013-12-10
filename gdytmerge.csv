@@ -176,11 +176,6 @@ mass	butz	ms1	benedictus	bass	0BxLNdnU3DNwAZ0hfVGl3NU9LdG8
 mass	butz	ms1	agnusdei	soprano	0BxLNdnU3DNwAVUp6V1JTT0RiQ0k					
 mass	butz	ms1	agnusdei	alto	0BxLNdnU3DNwATnZBOGhFWjQ2WDA					
 mass	butz	ms1	agnusdei	bass	0BxLNdnU3DNwAQ1FsT1ByX3NFZE0					
-song	byrd	aveverumcorpus	section	soprano	0BxLNdnU3DNwAYm9CSWlpMTFxVXM	song	Byrd	Ave Verum Corpus	section	Soprano	OUQrEDmBFlQ
-song	byrd	aveverumcorpus	section	alto	0BxLNdnU3DNwASGdVUGJvQWVMaGM	song	Byrd	Ave Verum Corpus	section	Alto	ldqy_ES0WjA
-song	byrd	aveverumcorpus	section	tenor	0BxLNdnU3DNwATjJKXy1RUGg1U0k	song	Byrd	Ave Verum Corpus	section	Tenor	FnsdhGdtu0w
-song	byrd	aveverumcorpus	section	bass	0BxLNdnU3DNwAQ0h2d3JTTUNtMnM	song	Byrd	Ave Verum Corpus	section	Bass	8BO3kA_9R4U
-song	byrd	aveverumcorpus	section	satb	0BxLNdnU3DNwAdkpJZ2NvZGtOZFk	song	Byrd	Ave Verum Corpus	section	SATB	iN3gD6xOUsw
 mass	byrd	massfor3voices	kyrie	alto	0BxLNdnU3DNwAb0JBMXpMTmlhYkk	mass	Byrd	Mass for 3 voices	Kyrie	Alto	5PijL3gPAuA
 mass	byrd	massfor3voices	kyrie	tenor	0BxLNdnU3DNwAaXA4d3NfQkdUT3M	mass	Byrd	Mass for 3 voices	Kyrie	Tenor	vVXfmzI9CRk
 mass	byrd	massfor3voices	kyrie	bass	0BxLNdnU3DNwAZW1HR2RpV3MxeUE	mass	Byrd	Mass for 3 voices	Kyrie	Bass	EorsO3uxtZ0
@@ -201,6 +196,11 @@ mass	byrd	massfor3voices	agnusdei	alto	0BxLNdnU3DNwAbDE2VWlXSUhEOWs	mass	Byrd	Ma
 mass	byrd	massfor3voices	agnusdei	tenor	0BxLNdnU3DNwAbXB2YU85WTRpQlE	mass	Byrd	Mass for 3 voices	Agnus Dei	Tenor	IXnA1urJDxY
 mass	byrd	massfor3voices	agnusdei	bass	0BxLNdnU3DNwAOVpMMER2bHFBVGM	mass	Byrd	Mass for 3 voices	Agnus Dei	Bass	EVrDM3G8Hjk
 mass	byrd	massfor3voices	agnusdei	satb	0BxLNdnU3DNwAcndkSmpxV1hWdzQ	mass	Byrd	Mass for 3 voices	Agnus Dei	SATB	aCze6Jte6T4
+song	byrd	aveverumcorpus	section	soprano	0BxLNdnU3DNwAYm9CSWlpMTFxVXM	song	Byrd	Ave Verum Corpus	section	Soprano	OUQrEDmBFlQ
+song	byrd	aveverumcorpus	section	alto	0BxLNdnU3DNwASGdVUGJvQWVMaGM	song	Byrd	Ave Verum Corpus	section	Alto	ldqy_ES0WjA
+song	byrd	aveverumcorpus	section	tenor	0BxLNdnU3DNwATjJKXy1RUGg1U0k	song	Byrd	Ave Verum Corpus	section	Tenor	FnsdhGdtu0w
+song	byrd	aveverumcorpus	section	bass	0BxLNdnU3DNwAQ0h2d3JTTUNtMnM	song	Byrd	Ave Verum Corpus	section	Bass	8BO3kA_9R4U
+song	byrd	aveverumcorpus	section	satb	0BxLNdnU3DNwAdkpJZ2NvZGtOZFk	song	Byrd	Ave Verum Corpus	section	SATB	iN3gD6xOUsw
 mass	caesar	stmarysmass	kyrie	soprano	0BxLNdnU3DNwAOUlfNnlLTXo0ODg					
 mass	caesar	stmarysmass	kyrie	alto	0BxLNdnU3DNwAc3FjcF9HSkZ5Vk0					
 mass	caesar	stmarysmass	kyrie	tenor	0BxLNdnU3DNwAVW5mdTZ2S0FjUlU					
@@ -304,16 +304,6 @@ carol	carol	onceinroyaldavidscity	section	alto	0BxLNdnU3DNwASTE3V1lUczNvZW8	caro
 carol	carol	onceinroyaldavidscity	section	tenor	0BxLNdnU3DNwAd2dCQ3ROTWRvZlk	carol	carol	Once In Royal Davids City	section	Tenor	hEU9Sj6bdbk
 carol	carol	onceinroyaldavidscity	section	bass	0BxLNdnU3DNwAZTZDVkl6RVhCRTQ	carol	carol	Once In Royal Davids City	section	Bass	uoOBkoq33qU
 carol	carol	onceinroyaldavidscity	section	satb	0BxLNdnU3DNwAMkxUN1ZHRnF5WHc	carol	carol	Once In Royal Davids City	section	SATB	pkIomMofOZA
-hymn	hymn	praisemysoul	section	soprano	0BxLNdnU3DNwAXzZrdVcwb1QyTEk					
-hymn	hymn	praisemysoul	section	alto	0BxLNdnU3DNwAcHI0MlJXWHUwWG8					
-hymn	hymn	praisemysoul	section	tenor	0BxLNdnU3DNwAbzJrLVFVUGpwS0U					
-hymn	hymn	praisemysoul	section	bass	0BxLNdnU3DNwAbnRlTEE3cTd2Rmc					
-hymn	hymn	praisemysoul	section	satb	0BxLNdnU3DNwAWW80elZDb291cVU					
-hymn	hymn	praisetotheholiest	section	soprano	0BxLNdnU3DNwAT2xiLU5aaWdzZjA					
-hymn	hymn	praisetotheholiest	section	alto	0BxLNdnU3DNwAT09CNjd5ZGlja1k					
-hymn	hymn	praisetotheholiest	section	tenor	0BxLNdnU3DNwAdExQYkw2VVBLeEk					
-hymn	hymn	praisetotheholiest	section	bass	0BxLNdnU3DNwANnZlS0ZsbnV3cTg					
-hymn	hymn	praisetotheholiest	section	satb	0BxLNdnU3DNwAMERFZUxXTkNiNk0					
 carol	carol	quempastores	section	soprano1	0BxLNdnU3DNwAbXI3N0F4dnYta3M					
 carol	carol	quempastores	section	soprano2	0BxLNdnU3DNwAcEY4X09IQUZsdEU					
 carol	carol	quempastores	section	alto	0BxLNdnU3DNwAVFMwZ2VpY2tCVHM					
@@ -347,15 +337,6 @@ carol	carol	stillenacht	section	tenor2	0BxLNdnU3DNwAc29RWWQxLXYxYW8
 carol	carol	stillenacht	section	bass1	0BxLNdnU3DNwAOEU5ZGV1bFBpaUE					
 carol	carol	stillenacht	section	bass2	0BxLNdnU3DNwAWGFKcExWdFFmaFU					
 carol	carol	stillenacht	section	satb	0BxLNdnU3DNwAbHpFZHZDa28tcVE					
-hymn	hymn	strifeisoer	section	soprano	0BxLNdnU3DNwAbWhxeE1xZW0xRm8					
-hymn	hymn	strifeisoer	section	alto	0BxLNdnU3DNwATHdLUEQzV0E2ZXc					
-hymn	hymn	strifeisoer	section	tenor	0BxLNdnU3DNwAajE3a1FnY2lGaGc					
-hymn	hymn	strifeisoer	section	bass	0BxLNdnU3DNwATDRENjNKY3JiNEU					
-hymn	hymn	takeupcross	section	soprano	0BxLNdnU3DNwAZzdobVZpXzhQc2M					
-hymn	hymn	takeupcross	section	alto	0BxLNdnU3DNwATVlJSGNHaEVPaWc					
-hymn	hymn	takeupcross	section	tenor	0BxLNdnU3DNwAYzM1VTBDSWdDeWc					
-hymn	hymn	takeupcross	section	bass	0BxLNdnU3DNwAVDdCVGxFQmJhQ0U					
-carol	carol	takeupcross	section	satb	0BxLNdnU3DNwAV0VvUlpFbEhmN2M					
 carol	carol	theangelgabrielfromheavencame	section	soprano	0BxLNdnU3DNwAdGZxYkFybVZiUkE	carol	carol	The angel Gabriel from heaven came	section	Soprano	m--fExKcA9M
 carol	carol	theangelgabrielfromheavencame	section	alto	0BxLNdnU3DNwAR3R2aTU1NGpLM2M	carol	carol	The angel Gabriel from heaven came	section	Alto	iGf11bdlorQ
 carol	carol	theangelgabrielfromheavencame	section	tenor	0BxLNdnU3DNwARlUyODJjVEdGdFU	carol	carol	The angel Gabriel from heaven came	section	Tenor	0gRq6UkRw2Y
@@ -386,11 +367,6 @@ carol	carol	virgingreat	section	alto	0BxLNdnU3DNwAUExzRklHb1FYTEU
 carol	carol	virgingreat	section	tenor	0BxLNdnU3DNwARVYyQ1Q0bGVnTTQ					
 carol	carol	virgingreat	section	bass	0BxLNdnU3DNwAdC1yc0h5UkxqZlE					
 carol	carol	virgingreat	section	satb	0BxLNdnU3DNwASVNPUWFLbUJxOHM					
-hymn	hymn	wepraisethyname	section	soprano	0BxLNdnU3DNwAQWZKa0RmTFAxNVE					
-hymn	hymn	wepraisethyname	section	alto	0BxLNdnU3DNwARHJINlJFSUhzSEk					
-hymn	hymn	wepraisethyname	section	tenor	0BxLNdnU3DNwAaVdTSGVnMUx3UGs					
-hymn	hymn	wepraisethyname	section	bass	0BxLNdnU3DNwANENBcTB2Ui1DVG8					
-hymn	hymn	wepraisethyname	section	satb	0BxLNdnU3DNwALS1CVkRzcU5ZN1E					
 mass	casciolini	missabrevissima	kyrie	soprano	0BxLNdnU3DNwAVHJMZUs1cEZXaG8					
 mass	casciolini	missabrevissima	kyrie	alto	0BxLNdnU3DNwAbHVsQmZYeXpfcTg					
 mass	casciolini	missabrevissima	kyrie	tenor	0BxLNdnU3DNwAMmNRT1hhQW5ubjQ					
@@ -524,7 +500,6 @@ mass	drury	massmarymackillop	agnusdei	tenor1	0BxLNdnU3DNwAeGE3Q1kyVlVPYnM
 mass	drury	massmarymackillop	agnusdei	tenor2	0BxLNdnU3DNwAMEdfQXFoZHlJVHc					
 mass	drury	massmarymackillop	agnusdei	bass	0BxLNdnU3DNwAaE41VHFmUFJuWE0					
 mass	drury	massmarymackillop	agnusdei	satb	0BxLNdnU3DNwAM09Dc3pWV1M0VUE					
-song	durufle		section		0BxLNdnU3DNwAWnlxeFNnazI4NTA					
 mass	durufle	requiem	01introit	soprano1	0BxLNdnU3DNwAemRuTTBsZXZDOWs					
 mass	durufle	requiem	01introit	soprano2	0BxLNdnU3DNwARjBpWVoyNjBNRFk					
 mass	durufle	requiem	01introit	alto	0BxLNdnU3DNwATGVYcWc5V3ZtN1U					
@@ -571,6 +546,7 @@ mass	durufle	requiem	09inparadisum	tenor2	0BxLNdnU3DNwAZjJNR2k2WnQtY2M
 mass	durufle	requiem	09inparadisum	bass1	0BxLNdnU3DNwAdDdOZUtCQXdiYW8					
 mass	durufle	requiem	09inparadisum	bass2	0BxLNdnU3DNwAZy0xUi1iUG04dEk					
 mass	durufle	requiem	09inparadisum	satb	0BxLNdnU3DNwATEFETi1BQ2VnVDQ					
+song	durufle		section		0BxLNdnU3DNwAWnlxeFNnazI4NTA					
 song	durufle	ubicaritas	section	soprano	0BxLNdnU3DNwAbVBqYWdJT1JxWms					
 song	durufle	ubicaritas	section	alto	0BxLNdnU3DNwAZmJ5TUFiVjRWQlE					
 song	durufle	ubicaritas	section	tenor1	0BxLNdnU3DNwAUG0xTFdJenRkLXM					
@@ -606,13 +582,6 @@ song	farrant	hidenotthou	section	alto	0BxLNdnU3DNwAWXdYUWZ2TldZTU0
 song	farrant	hidenotthou	section	tenor	0BxLNdnU3DNwAUkRFdXFsVkFBaWc					
 song	farrant	hidenotthou	section	bass	0BxLNdnU3DNwAaTVwWFlPYkJvR2c					
 song	farrant	hidenotthou	section	satb	0BxLNdnU3DNwARjlJUUlSRmJwbDg					
-song	faure	aveverum	section	soprano	0BxLNdnU3DNwAUkpaZFNrbThpWHM					
-song	faure	aveverum	section	alto	0BxLNdnU3DNwAMTYwZUMzN3VUckE					
-song	faure	aveverum	section	satb	0BxLNdnU3DNwAamU5anNRU3Nzb00					
-song	faure	cantiquedejeanracine	section	soprano	0BxLNdnU3DNwAcXUzbW0tbzRsTjg	song	Faure	Cantique de Jean Racine	section	Soprano	t9RYcF11yss
-song	faure	cantiquedejeanracine	section	alto	0BxLNdnU3DNwAcDRkS1JlWE5ENzQ	song	Faure	Cantique de Jean Racine	section	Alto	Xnm7Lk96Jos
-song	faure	cantiquedejeanracine	section	tenor	0BxLNdnU3DNwARjhDMjRBTzE5QnM	song	Faure	Cantique de Jean Racine	section	Tenor	VMIuFLquoMA
-song	faure	cantiquedejeanracine	section	bass	0BxLNdnU3DNwANDJsSmxzWDJlZG8	song	Faure	Cantique de Jean Racine	section	Bass	Msz72vBFUu0
 mass	faure	requiem	sanctus	soprano	0BxLNdnU3DNwAOG12OWp4cEdIbkU	mass	Faure	Requiem	Sanctus	Soprano	mYpEe32Q0pY
 mass	faure	requiem	sanctus	alto	0BxLNdnU3DNwAY2diaXlTeUtzVEk	mass	Faure	Requiem	Sanctus	Alto	UGNDmVx9fU8
 mass	faure	requiem	sanctus	tenor1	0BxLNdnU3DNwAU3F2Y0tQdWlsY28	mass	Faure	Requiem	Sanctus	Tenor1	gEOg4mN8rrw
@@ -653,6 +622,13 @@ mass	faure	requiem	offertoire	alto	0BxLNdnU3DNwAS1drUGFseTExeXM	mass	Faure	Requi
 mass	faure	requiem	offertoire	tenor1	0BxLNdnU3DNwAMG9vVGFEbmlFczg	mass	Faure	Requiem	Offertoire	Tenor1	ipBSBhqak8Q
 mass	faure	requiem	offertoire	bass1	0BxLNdnU3DNwAYTFZUzQ3STZkV3M	mass	Faure	Requiem	Offertoire	Bass1	DzZ6Hg9df1w
 mass	faure	requiem	offertoire	satb	0BxLNdnU3DNwAYUNzal9HdFJzR28	mass	Faure	Requiem	Offertoire	SATB	wavpB74ZsQc
+song	faure	aveverum	section	soprano	0BxLNdnU3DNwAUkpaZFNrbThpWHM					
+song	faure	aveverum	section	alto	0BxLNdnU3DNwAMTYwZUMzN3VUckE					
+song	faure	aveverum	section	satb	0BxLNdnU3DNwAamU5anNRU3Nzb00					
+song	faure	cantiquedejeanracine	section	soprano	0BxLNdnU3DNwAcXUzbW0tbzRsTjg	song	Faure	Cantique de Jean Racine	section	Soprano	t9RYcF11yss
+song	faure	cantiquedejeanracine	section	alto	0BxLNdnU3DNwAcDRkS1JlWE5ENzQ	song	Faure	Cantique de Jean Racine	section	Alto	Xnm7Lk96Jos
+song	faure	cantiquedejeanracine	section	tenor	0BxLNdnU3DNwARjhDMjRBTzE5QnM	song	Faure	Cantique de Jean Racine	section	Tenor	VMIuFLquoMA
+song	faure	cantiquedejeanracine	section	bass	0BxLNdnU3DNwANDJsSmxzWDJlZG8	song	Faure	Cantique de Jean Racine	section	Bass	Msz72vBFUu0
 song	franck	panisangelicus	section	soprano	0BxLNdnU3DNwAaEVMSHAtaTVVbms					
 song	franck	panisangelicus	section	alto	0BxLNdnU3DNwARlA0SmtodFhEVlk					
 song	franck	panisangelicus	section	tenor	0BxLNdnU3DNwAdjI5SlNtd09aLWM					
@@ -802,9 +778,6 @@ song	hassler	dixitmaria	section	alto	0BxLNdnU3DNwAYjdaUTJLTkg4TGM
 song	hassler	dixitmaria	section	tenor	0BxLNdnU3DNwAYjE4MFFHRHQ0VUU					
 song	hassler	dixitmaria	section	bass	0BxLNdnU3DNwAY29rYWZBRXgxWUk					
 song	hassler	dixitmaria	section	satb	0BxLNdnU3DNwARUdrQ3d0T0ZYSEE					
-song	haydn		section		0BxLNdnU3DNwAMmZWVEZTeUVjRnc					
-song	haydn		section		0BxLNdnU3DNwAZWZMaDliWkVleFU					
-song	haydn		section		0BxLNdnU3DNwAc0hGS00zVmJfNWs					
 mass	haydn	harmoniemesse	gloria	soprano	0BxLNdnU3DNwAMDBvUzFXSEVPTHM	mass	Haydn	Harmoniemesse	Gloria	Soprano	lFlDaNtUu-I
 mass	haydn	harmoniemesse	gloria	alto	0BxLNdnU3DNwAOG5HUHdhQXVFY2M	mass	Haydn	Harmoniemesse	Gloria	Alto	ER9orJYMBSo
 mass	haydn	harmoniemesse	gloria	tenor	0BxLNdnU3DNwAWWFqSTdzSWdRR2M	mass	Haydn	Harmoniemesse	Gloria	Tenor	MNEdh3Q8RjQ
@@ -885,6 +858,9 @@ mass	haydn	missasanctinicolai	benedictuschoir	alto	0BxLNdnU3DNwASXREUlFqODAwSHM
 mass	haydn	missasanctinicolai	benedictuschoir	tenor	0BxLNdnU3DNwAa1d3SXlqYU1DaVE					
 mass	haydn	missasanctinicolai	benedictuschoir	bass	0BxLNdnU3DNwASmtES1QzNVQyY2M					
 mass	haydn	missasanctinicolai	benedictuschoir	satb	0BxLNdnU3DNwASVJpNnQycmJ0OHc					
+song	haydn		section		0BxLNdnU3DNwAMmZWVEZTeUVjRnc					
+song	haydn		section		0BxLNdnU3DNwAZWZMaDliWkVleFU					
+song	haydn		section		0BxLNdnU3DNwAc0hGS00zVmJfNWs					
 song	haydn	theheavensaretelling	section	soprano	0BxLNdnU3DNwASnJncHpwVmtHNGc	song	Haydn	The heavens are telling	section	Soprano	HIz74jBhgEI
 song	haydn	theheavensaretelling	section	alto	0BxLNdnU3DNwAcnRsTlpTQmJTbXM	song	Haydn	The heavens are telling	section	Alto	JFaBnMDtDTU
 song	haydn	theheavensaretelling	section	tenor	0BxLNdnU3DNwAZk4xdS0tdnlwaTg	song	Haydn	The heavens are telling	section	Tenor	aBUFoior0QI
@@ -905,6 +881,30 @@ song	howells	likeasthehart	section	alto	0BxLNdnU3DNwANFVQdHIzV3hGUlE	song	Howell
 song	howells	likeasthehart	section	tenor	0BxLNdnU3DNwANnVTU2VOUzRBVE0	song	Howells	Like As The Hart	section	Tenor	enJAIOh73eo
 song	howells	likeasthehart	section	bass	0BxLNdnU3DNwANTVXMl9wOXNTMm8	song	Howells	Like As The Hart	section	Bass	LbUxxE-K5o8
 song	howells	likeasthehart	section	satb	0BxLNdnU3DNwAOVRrT1A5aUcxcUU	song	Howells	Like As The Hart	section	SATB	0_DnqBaWTd8
+hymn	hymn	praisemysoul	section	soprano	0BxLNdnU3DNwAXzZrdVcwb1QyTEk					
+hymn	hymn	praisemysoul	section	alto	0BxLNdnU3DNwAcHI0MlJXWHUwWG8					
+hymn	hymn	praisemysoul	section	tenor	0BxLNdnU3DNwAbzJrLVFVUGpwS0U					
+hymn	hymn	praisemysoul	section	bass	0BxLNdnU3DNwAbnRlTEE3cTd2Rmc					
+hymn	hymn	praisemysoul	section	satb	0BxLNdnU3DNwAWW80elZDb291cVU					
+hymn	hymn	praisetotheholiest	section	soprano	0BxLNdnU3DNwAT2xiLU5aaWdzZjA					
+hymn	hymn	praisetotheholiest	section	alto	0BxLNdnU3DNwAT09CNjd5ZGlja1k					
+hymn	hymn	praisetotheholiest	section	tenor	0BxLNdnU3DNwAdExQYkw2VVBLeEk					
+hymn	hymn	praisetotheholiest	section	bass	0BxLNdnU3DNwANnZlS0ZsbnV3cTg					
+hymn	hymn	praisetotheholiest	section	satb	0BxLNdnU3DNwAMERFZUxXTkNiNk0					
+hymn	hymn	strifeisoer	section	soprano	0BxLNdnU3DNwAbWhxeE1xZW0xRm8					
+hymn	hymn	strifeisoer	section	alto	0BxLNdnU3DNwATHdLUEQzV0E2ZXc					
+hymn	hymn	strifeisoer	section	tenor	0BxLNdnU3DNwAajE3a1FnY2lGaGc					
+hymn	hymn	strifeisoer	section	bass	0BxLNdnU3DNwATDRENjNKY3JiNEU					
+hymn	hymn	takeupcross	section	soprano	0BxLNdnU3DNwAZzdobVZpXzhQc2M					
+hymn	hymn	takeupcross	section	alto	0BxLNdnU3DNwATVlJSGNHaEVPaWc					
+hymn	hymn	takeupcross	section	tenor	0BxLNdnU3DNwAYzM1VTBDSWdDeWc					
+hymn	hymn	takeupcross	section	bass	0BxLNdnU3DNwAVDdCVGxFQmJhQ0U					
+hymn	hymn	takeupcross	section	satb	0BxLNdnU3DNwAV0VvUlpFbEhmN2M					
+hymn	hymn	wepraisethyname	section	soprano	0BxLNdnU3DNwAQWZKa0RmTFAxNVE					
+hymn	hymn	wepraisethyname	section	alto	0BxLNdnU3DNwARHJINlJFSUhzSEk					
+hymn	hymn	wepraisethyname	section	tenor	0BxLNdnU3DNwAaVdTSGVnMUx3UGs					
+hymn	hymn	wepraisethyname	section	bass	0BxLNdnU3DNwANENBcTB2Ui1DVG8					
+hymn	hymn	wepraisethyname	section	satb	0BxLNdnU3DNwALS1CVkRzcU5ZN1E					
 song	ireland	greaterlove	section	soprano1	0BxLNdnU3DNwASUJVVmRZeURNMzg					
 song	ireland	greaterlove	section	soprano2	0BxLNdnU3DNwASEtlOURvakZ6Z1E					
 song	ireland	greaterlove	section	alto1	0BxLNdnU3DNwAbmMtOVJJNGNpekE					
@@ -1091,11 +1091,6 @@ song	mills	godbeinmyhead	section	alto	0BxLNdnU3DNwAeGRoZmh2dDV2cDg
 song	mills	godbeinmyhead	section	tenor	0BxLNdnU3DNwATFo4aUprNTNVcVE					
 song	mills	godbeinmyhead	section	bass	0BxLNdnU3DNwAaFcyTHlLUlQxeHc					
 song	mills	godbeinmyhead	section	satb	0BxLNdnU3DNwAd01oeEdRdWVUMUE					
-song	mozart	aveverumcorpus	section	soprano	0BxLNdnU3DNwAbnVYUHJjdlc1eFk	song	Mozart	Ave Verum Corpus	section	Soprano	-c-StWiNy6M
-song	mozart	aveverumcorpus	section	alto	0BxLNdnU3DNwAZjNrbXVFU1NhUVE	song	Mozart	Ave Verum Corpus	section	Alto	tgEJRuN44v0
-song	mozart	aveverumcorpus	section	tenor	0BxLNdnU3DNwAeW0tNks0YzUxczQ	song	Mozart	Ave Verum Corpus	section	Tenor	UjOyXlKrAD4
-song	mozart	aveverumcorpus	section	bass	0BxLNdnU3DNwAcGE3MnpQX2FlRWs	song	Mozart	Ave Verum Corpus	section	Bass	U1vUBQrwCkM
-song	mozart	aveverumcorpus	section	satb	0BxLNdnU3DNwANDNUTVduRFBvdEE	song	Mozart	Ave Verum Corpus	section	SATB	C9WRAAq4Gvc
 mass	mozart	coronationmass	kyrie	soprano	0BxLNdnU3DNwAUHNpWm01cGR2TWs	mass	Mozart	Coronation Mass	Kyrie	Soprano	V3swYcp9UzE
 mass	mozart	coronationmass	kyrie	alto	0BxLNdnU3DNwAc3R2VEFlTk5rQUU	mass	Mozart	Coronation Mass	Kyrie	Alto	8LLX8GV4cKg
 mass	mozart	coronationmass	kyrie	tenor	0BxLNdnU3DNwASHZ5LWFzT1RrZVU	mass	Mozart	Coronation Mass	Kyrie	Tenor	G5YITDNA0Ao
@@ -1116,11 +1111,6 @@ mass	mozart	coronationmass	agnusdei	soprano	0BxLNdnU3DNwAaENpY3I1SVRrQXc	mass	Mo
 mass	mozart	coronationmass	agnusdei	alto	0BxLNdnU3DNwAZUVVXzliTi1uWWM	mass	Mozart	Coronation Mass	Agnus Dei	Alto	za0j3nKu9bc
 mass	mozart	coronationmass	agnusdei	tenor	0BxLNdnU3DNwAeTdEZlBEUUh1bzQ	mass	Mozart	Coronation Mass	Agnus Dei	Tenor	GJ-hyB-uZCw
 mass	mozart	coronationmass	agnusdei	bass	0BxLNdnU3DNwAeGliS1o2QW1xMGs	mass	Mozart	Coronation Mass	Agnus Dei	Bass	GXoJ1zmupGg
-song	mozart	laudatedominum	section	soprano	0BxLNdnU3DNwAOUVLdUNvaUEyV0U					
-song	mozart	laudatedominum	section	alto	0BxLNdnU3DNwAXzdhOWZiQi03VDg	song	Mozart	Laudate Dominum	section	Alto	-R9QXqoNLQg
-song	mozart	laudatedominum	section	tenor	0BxLNdnU3DNwAVGttYmp2a0ZZc3M	song	Mozart	Laudate Dominum	section	Tenor	UKw2s81opB4
-song	mozart	laudatedominum	section	bass	0BxLNdnU3DNwARHFtZVRUS2l5emM	song	Mozart	Laudate Dominum	section	Bass	LqBav0E4jDI
-song	mozart	laudatedominum	section	satb	0BxLNdnU3DNwAQlpvT1pQZmZKeTQ	song	Mozart	Laudate Dominum	section	SATB	lXA9TMGAA0s
 mass	mozart	missabrevisdminor	kyrie	soprano	0BxLNdnU3DNwAc2thRUpZTGYwQWc					
 mass	mozart	missabrevisdminor	kyrie	alto	0BxLNdnU3DNwAQXViTGJWUWNIZEU					
 mass	mozart	missabrevisdminor	kyrie	tenor	0BxLNdnU3DNwANjN0cmxpd3pLeVE					
@@ -1156,17 +1146,16 @@ mass	mozart	spatzenmesse	agnusdei	alto	0BxLNdnU3DNwAY0dvcDB3dzFxNlU	mass	Mozart	
 mass	mozart	spatzenmesse	agnusdei	tenor	0BxLNdnU3DNwAV3o1aW1sQjI3b0E	mass	Mozart	Spatzen-Messe	Agnus Dei	Tenor	hlRhpEILyy0
 mass	mozart	spatzenmesse	agnusdei	bass	0BxLNdnU3DNwAcVFETGdCZmFQMVk	mass	Mozart	Spatzen-Messe	Agnus Dei	Bass	iuCHWRtSeZI
 mass	mozart	spatzenmesse	agnusdei	satb	0BxLNdnU3DNwATm94bHNrcHY3eDg	mass	Mozart	Spatzen-Messe	Agnus Dei	SATB	yzECr4UDSmk
-song	palestrina		section		0BxLNdnU3DNwATEZ1SXJMcVVxWjg					
-song	palestrina		section		0BxLNdnU3DNwAUjY0aHhmMWJILTQ					
-song	palestrina	egosum	section	soprano	0BxLNdnU3DNwAelRqMmRNYTRpZVE					
-song	palestrina	egosum	section	alto	0BxLNdnU3DNwAM0ZnZkNWSGYwTEE					
-song	palestrina	egosum	section	tenor	0BxLNdnU3DNwARU1UaDdfT1A1MHM					
-song	palestrina	egosum	section	bass	0BxLNdnU3DNwAMjc1THNXMm5RZG8					
-song	palestrina	matinresponsory	section	soprano	0BxLNdnU3DNwAZXdVZGptVDR2R0E					
-song	palestrina	matinresponsory	section	alto	0BxLNdnU3DNwAWXN4ZUs3OV9ycnc					
-song	palestrina	matinresponsory	section	tenor	0BxLNdnU3DNwAMGxOVGNlb19ZdE0					
-song	palestrina	matinresponsory	section	bass	0BxLNdnU3DNwATnhRYi1vWVE5cEU					
-song	palestrina	matinresponsory	section	satb	0BxLNdnU3DNwAcUcyUWNmRC1qZlk					
+song	mozart	aveverumcorpus	section	soprano	0BxLNdnU3DNwAbnVYUHJjdlc1eFk	song	Mozart	Ave Verum Corpus	section	Soprano	-c-StWiNy6M
+song	mozart	aveverumcorpus	section	alto	0BxLNdnU3DNwAZjNrbXVFU1NhUVE	song	Mozart	Ave Verum Corpus	section	Alto	tgEJRuN44v0
+song	mozart	aveverumcorpus	section	tenor	0BxLNdnU3DNwAeW0tNks0YzUxczQ	song	Mozart	Ave Verum Corpus	section	Tenor	UjOyXlKrAD4
+song	mozart	aveverumcorpus	section	bass	0BxLNdnU3DNwAcGE3MnpQX2FlRWs	song	Mozart	Ave Verum Corpus	section	Bass	U1vUBQrwCkM
+song	mozart	aveverumcorpus	section	satb	0BxLNdnU3DNwANDNUTVduRFBvdEE	song	Mozart	Ave Verum Corpus	section	SATB	C9WRAAq4Gvc
+song	mozart	laudatedominum	section	soprano	0BxLNdnU3DNwAOUVLdUNvaUEyV0U					
+song	mozart	laudatedominum	section	alto	0BxLNdnU3DNwAXzdhOWZiQi03VDg	song	Mozart	Laudate Dominum	section	Alto	-R9QXqoNLQg
+song	mozart	laudatedominum	section	tenor	0BxLNdnU3DNwAVGttYmp2a0ZZc3M	song	Mozart	Laudate Dominum	section	Tenor	UKw2s81opB4
+song	mozart	laudatedominum	section	bass	0BxLNdnU3DNwARHFtZVRUS2l5emM	song	Mozart	Laudate Dominum	section	Bass	LqBav0E4jDI
+song	mozart	laudatedominum	section	satb	0BxLNdnU3DNwAQlpvT1pQZmZKeTQ	song	Mozart	Laudate Dominum	section	SATB	lXA9TMGAA0s
 mass	palestrina	missabrevis	kyrie	soprano	0BxLNdnU3DNwAR1RXMC1kNmNaSlE					
 mass	palestrina	missabrevis	kyrie	alto	0BxLNdnU3DNwAd3R2SHZoZEJFN2c					
 mass	palestrina	missabrevis	kyrie	tenor	0BxLNdnU3DNwALUtTSFdfVTY5R28					
@@ -1193,6 +1182,17 @@ mass	palestrina	missabrevis	agnusdei	alto	0BxLNdnU3DNwAZzcxTjJWYTdSS00
 mass	palestrina	missabrevis	agnusdei	tenor	0BxLNdnU3DNwAMElpMmJoYWtpX1U					
 mass	palestrina	missabrevis	agnusdei	bass	0BxLNdnU3DNwATEZLREVibUU5OXM					
 mass	palestrina	missabrevis	agnusdei	satb	0BxLNdnU3DNwAa3VyQ1V6R2pwQm8					
+song	palestrina		section		0BxLNdnU3DNwATEZ1SXJMcVVxWjg					
+song	palestrina		section		0BxLNdnU3DNwAUjY0aHhmMWJILTQ					
+song	palestrina	egosum	section	soprano	0BxLNdnU3DNwAelRqMmRNYTRpZVE					
+song	palestrina	egosum	section	alto	0BxLNdnU3DNwAM0ZnZkNWSGYwTEE					
+song	palestrina	egosum	section	tenor	0BxLNdnU3DNwARU1UaDdfT1A1MHM					
+song	palestrina	egosum	section	bass	0BxLNdnU3DNwAMjc1THNXMm5RZG8					
+song	palestrina	matinresponsory	section	soprano	0BxLNdnU3DNwAZXdVZGptVDR2R0E					
+song	palestrina	matinresponsory	section	alto	0BxLNdnU3DNwAWXN4ZUs3OV9ycnc					
+song	palestrina	matinresponsory	section	tenor	0BxLNdnU3DNwAMGxOVGNlb19ZdE0					
+song	palestrina	matinresponsory	section	bass	0BxLNdnU3DNwATnhRYi1vWVE5cEU					
+song	palestrina	matinresponsory	section	satb	0BxLNdnU3DNwAcUcyUWNmRC1qZlk					
 song	palestrina	sicutcervus	section	soprano	0BxLNdnU3DNwAeF9uYURwUWxsa3M	song	Palestrina	Sicut Cervus	section	Soprano	DvXxNwa-RSE
 song	palestrina	sicutcervus	section	alto	0BxLNdnU3DNwAbk5jZEQ2QmJoNm8	song	Palestrina	Sicut Cervus	section	Alto	FnFiKWQxrV0
 song	palestrina	sicutcervus	section	tenor	0BxLNdnU3DNwAZXlPTXV0dXlVTXc	song	Palestrina	Sicut Cervus	section	Tenor	XyysOHVCHHc
@@ -1434,11 +1434,6 @@ mass	scarlatti	missaquatuorvocum	agnusdei	alto	0BxLNdnU3DNwAOEdNM0ZjUnJUTkE
 mass	scarlatti	missaquatuorvocum	agnusdei	tenor	0BxLNdnU3DNwAQ1RpWEp4Z04wQVk					
 mass	scarlatti	missaquatuorvocum	agnusdei	bass	0BxLNdnU3DNwAam5nblJidS1laXc					
 mass	scarlatti	missaquatuorvocum	agnusdei	satb	0BxLNdnU3DNwAYjdpbTVtMkNITjQ					
-song	schubert		section		0BxLNdnU3DNwAZi1XS0R2WkxRcG8					
-song	schubert	hosannafilio	section	soprano	0BxLNdnU3DNwAZFlFUTFHeEpzNHc					
-song	schubert	hosannafilio	section	alto	0BxLNdnU3DNwAdGM3dFJtWmoxV28					
-song	schubert	hosannafilio	section	tenor	0BxLNdnU3DNwAWS1KVm5vWHkyRHc					
-song	schubert	hosannafilio	section	bass	0BxLNdnU3DNwAZXY0eGNLN0dDV28					
 mass	schubert	massing	kyrie	soprano	0BxLNdnU3DNwAQWlyamhEdUdnakE					
 mass	schubert	massing	kyrie	alto	0BxLNdnU3DNwAc24ycWdXU2Vyc28					
 mass	schubert	massing	kyrie	tenor	0BxLNdnU3DNwAU1RGRmdtamMxTE0					
@@ -1464,6 +1459,11 @@ mass	schubert	massing	agnusdei	alto	0BxLNdnU3DNwAU0VwRm85TVp0MDQ
 mass	schubert	massing	agnusdei	tenor	0BxLNdnU3DNwAQmRTU3oyX3JQNFE					
 mass	schubert	massing	agnusdei	bass	0BxLNdnU3DNwANmMyVXZOWUpyZzQ					
 mass	schubert	massing	agnusdei	satb	0BxLNdnU3DNwANTY4ZWxldnlfblU					
+song	schubert		section		0BxLNdnU3DNwAZi1XS0R2WkxRcG8					
+song	schubert	hosannafilio	section	soprano	0BxLNdnU3DNwAZFlFUTFHeEpzNHc					
+song	schubert	hosannafilio	section	alto	0BxLNdnU3DNwAdGM3dFJtWmoxV28					
+song	schubert	hosannafilio	section	tenor	0BxLNdnU3DNwAWS1KVm5vWHkyRHc					
+song	schubert	hosannafilio	section	bass	0BxLNdnU3DNwAZXY0eGNLN0dDV28					
 song	schubert	zumsanctus	section	soprano	0BxLNdnU3DNwAeS1aT0F5SWFidjA					
 song	schubert	zumsanctus	section	alto	0BxLNdnU3DNwAeE94di1kWXQyNEE					
 song	schubert	zumsanctus	section	tenor	0BxLNdnU3DNwAVEUwZkFRb0NRM00					
@@ -1538,11 +1538,6 @@ mass	tipping	missaaustralis	agnusdei	alto	0BxLNdnU3DNwASGRFRTNvU01pTWM
 mass	tipping	missaaustralis	agnusdei	tenor	0BxLNdnU3DNwALVZkV190c3AyR0k					
 mass	tipping	missaaustralis	agnusdei	bass	0BxLNdnU3DNwASFhzemd1MWp1SFE					
 mass	tipping	missaaustralis	agnusdei	satb	0BxLNdnU3DNwARjN3dnE0VUVwQlE					
-song	tlvictoria	jesudulcismemoria	section	soprano	0BxLNdnU3DNwANU42TVJBY2hQbFE	song	T.L.Victoria	Jesu Dulcis Memoria	section	Soprano	od_j519E9CY
-song	tlvictoria	jesudulcismemoria	section	alto	0BxLNdnU3DNwANERiN3BtRE1rTjg	song	T.L.Victoria	Jesu Dulcis Memoria	section	Alto	IgTwya2gL8A
-song	tlvictoria	jesudulcismemoria	section	tenor	0BxLNdnU3DNwANkY5aVBDdExFUUU	song	T.L.Victoria	Jesu Dulcis Memoria	section	Tenor	HZABi1Uv8z0
-song	tlvictoria	jesudulcismemoria	section	bass	0BxLNdnU3DNwAU0JUU2V1UFZ3ZEU	song	T.L.Victoria	Jesu Dulcis Memoria	section	Bass	oDGT7bXRa10
-song	tlvictoria	jesudulcismemoria	section	satb	0BxLNdnU3DNwAV1BYVGFnaHlRVDA	song	T.L.Victoria	Jesu Dulcis Memoria	section	SATB	eeqfyg43sQQ
 mass	tlvictoria	misaquartitoni	kyrie	soprano	0BxLNdnU3DNwAUy1DLVR5MkpYVms	mass	T.L.Victoria	Misa Quarti Toni	Kyrie	Soprano	jR6LCW5GzvM
 mass	tlvictoria	misaquartitoni	kyrie	alto	0BxLNdnU3DNwAMy1JUGRuYzVlaHc	mass	T.L.Victoria	Misa Quarti Toni	Kyrie	Alto	XneaV5hiu4A
 mass	tlvictoria	misaquartitoni	kyrie	tenor	0BxLNdnU3DNwANE0tWmlBNGpnckE	mass	T.L.Victoria	Misa Quarti Toni	Kyrie	Tenor	1dny5ATzBm8
@@ -1563,6 +1558,11 @@ mass	tlvictoria	misaquartitoni	agnusdei	soprano2	0BxLNdnU3DNwAMHZIczF1ZmxsXzg
 mass	tlvictoria	misaquartitoni	agnusdei	alto	0BxLNdnU3DNwAUEhBT3JCTDF2SVk					
 mass	tlvictoria	misaquartitoni	agnusdei	tenor	0BxLNdnU3DNwAUER0WG1ha3hvQlE					
 mass	tlvictoria	misaquartitoni	agnusdei	bass	0BxLNdnU3DNwAQTJxZHhRUXlqWjA					
+song	tlvictoria	jesudulcismemoria	section	soprano	0BxLNdnU3DNwANU42TVJBY2hQbFE	song	T.L.Victoria	Jesu Dulcis Memoria	section	Soprano	od_j519E9CY
+song	tlvictoria	jesudulcismemoria	section	alto	0BxLNdnU3DNwANERiN3BtRE1rTjg	song	T.L.Victoria	Jesu Dulcis Memoria	section	Alto	IgTwya2gL8A
+song	tlvictoria	jesudulcismemoria	section	tenor	0BxLNdnU3DNwANkY5aVBDdExFUUU	song	T.L.Victoria	Jesu Dulcis Memoria	section	Tenor	HZABi1Uv8z0
+song	tlvictoria	jesudulcismemoria	section	bass	0BxLNdnU3DNwAU0JUU2V1UFZ3ZEU	song	T.L.Victoria	Jesu Dulcis Memoria	section	Bass	oDGT7bXRa10
+song	tlvictoria	jesudulcismemoria	section	satb	0BxLNdnU3DNwAV1BYVGFnaHlRVDA	song	T.L.Victoria	Jesu Dulcis Memoria	section	SATB	eeqfyg43sQQ
 song	tomkins	iheardavoice	section	soprano	0BxLNdnU3DNwAT3NocC1YaUZsNnc					
 song	tomkins	iheardavoice	section	alto	0BxLNdnU3DNwANEo4eThYYTZVNjg					
 song	tomkins	iheardavoice	section	tenor	0BxLNdnU3DNwANHRjMXRPZVhMRFE					
@@ -1594,16 +1594,16 @@ song	willcock	ificouldtell	section	alto	0BxLNdnU3DNwAR0pHZmttZExxdFE
 song	willcock	ificouldtell	section	tenor	0BxLNdnU3DNwASXV2dXE5b192OVU					
 song	willcock	ificouldtell	section	bass	0BxLNdnU3DNwAVVZBNVprdl9MM2c					
 song	willcock	ificouldtell	section	satb	0BxLNdnU3DNwARTIxQ2RQVG1oUUU					
-hymn	williams	downampney	section	soprano	0BxLNdnU3DNwAaWhubWZRWlBqZ28					
-hymn	williams	downampney	section	alto	0BxLNdnU3DNwAaFlweHowVXdRMms					
-hymn	williams	downampney	section	tenor	0BxLNdnU3DNwARFpVMnZFQUozd2c					
-hymn	williams	downampney	section	bass	0BxLNdnU3DNwAcTgzWmF3WkRiZWM					
-hymn	williams	downampney	section	satb	0BxLNdnU3DNwASU1aWVBOVjBXLVE					
 carol	williams	thetruthfromabove	section	soprano	0BxLNdnU3DNwATlVvNUV3dXdmWWc	song	Williams	The truth from above	section	Soprano	MdbJW5rmFaw
 carol	williams	thetruthfromabove	section	alto	0BxLNdnU3DNwAZWdEMXF0Rm83QUE	song	Williams	The truth from above	section	Alto	C_f52TUP24s
 carol	williams	thetruthfromabove	section	tenor	0BxLNdnU3DNwAeUFvQ2dUNVpsems	song	Williams	The truth from above	section	Tenor	Abgu2-ynSng
 carol	williams	thetruthfromabove	section	bass	0BxLNdnU3DNwAQkh4SjVfcU9Xc3c	song	Williams	The truth from above	section	Bass	wj2zKpxor2k
 carol	williams	thetruthfromabove	section	satb	0BxLNdnU3DNwAZ19lc05iWU92OEE	song	Williams	The truth from above	section	SATB	V0k0qeSA1es
+hymn	williams	downampney	section	soprano	0BxLNdnU3DNwAaWhubWZRWlBqZ28					
+hymn	williams	downampney	section	alto	0BxLNdnU3DNwAaFlweHowVXdRMms					
+hymn	williams	downampney	section	tenor	0BxLNdnU3DNwARFpVMnZFQUozd2c					
+hymn	williams	downampney	section	bass	0BxLNdnU3DNwAcTgzWmF3WkRiZWM					
+hymn	williams	downampney	section	satb	0BxLNdnU3DNwASU1aWVBOVjBXLVE					
 song	wood	othouthecentralorb	section	soprano	0BxLNdnU3DNwAVGUxeXZKYkJzZXc	song	Wood	O Thou the central orb	section	Soprano	EQmh_3dVzvM
 song	wood	othouthecentralorb	section	alto	0BxLNdnU3DNwAUzlBc3ZEQ2c5aEk	song	Wood	O Thou the central orb	section	Alto	zEEGFuDuKv0
 song	wood	othouthecentralorb	section	tenor	0BxLNdnU3DNwAWG9JMS1kYnFLdlE	song	Wood	O Thou the central orb	section	Tenor	Ou_RzfZbS2I

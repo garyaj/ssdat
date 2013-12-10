@@ -44,6 +44,8 @@ print map { $_->[0] }
       sort {
         $a->[2] cmp $b->[2] #composer
                 ||
+        $a->[1] cmp $b->[1] #genre
+                ||
         $a->[3] cmp $b->[3] #work
                 ||
   sect($a->[4]) cmp sect($b->[4]) #section
