@@ -15,7 +15,7 @@ sub initfromflds {
   $self->title($flds->{composer});
   $self->initurl;
   $self->composer($flds->{composer});
-  $self->dcomposer($flds->{dcomposer});
+  $self->dcomposer(ucfirst($flds->{dcomposer}?$flds->{dcomposer}:$flds->{composer}));
   my $o = ($flds->{genre} =~ /mass|oratorio/) ? MultiWork->new : SingleWork->new;
   $o->initfromflds($flds);
   push @{$self->works}, $o;
