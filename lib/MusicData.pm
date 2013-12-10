@@ -19,7 +19,7 @@ sub initurl {
 sub outputdat {
   my ($self, $items) = @_;
   open my $out, ">", 'page/'.$self->uniqid.'.dat' or die "$self->uniqid: $!";
-  print $out $self->tohtml($items);
+  print $out $self->tohtml;
   close $out;
 }
 

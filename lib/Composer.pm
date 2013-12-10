@@ -1,4 +1,5 @@
 package Composer;
+use Mojo::Template;
 use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
 extends 'MusicData';
@@ -15,33 +16,30 @@ sub initfromflds {
   $self->initurl;
   $self->composer($flds->{composer});
   $self->dcomposer($flds->{dcomposer});
-  my $o = ($flds->{genre} eq 'mass') ? MultiWork->new : SingleWork->new;
+  my $o = ($flds->{genre} =~ /mass|oratorio/) ? MultiWork->new : SingleWork->new;
   $o->initfromflds($flds);
   push @{$self->works}, $o;
 }
 
 sub tohtml {
-  my ($self, $items) = @_;
-  my $s = "<p align=\"left\">\n";
-  my $first = 1;
-  for my $item (@$items) {
-    $s .= "<br />\n" unless $first;
-    $s .= '<a href="'.$item->url.'">'.$item->label."</a>\n";
-    $first = 0;
-  }
-  $s .= "</p>\n";
-  return $s;
-}
-
-sub outputdir {
   my $self = shift;
-  foreach my $composer (@{$self->composers}) {
-    $composer->outputdat($composer->works);
-    foreach my $work (@{$composer->works}) {
-      $work->outputdat($work->sections);
-    }
-  }
+  my $mt = Mojo::Template->new;
+  return $mt->render(<<'EOF', $self->works);
+% use lib './lib';
+% use Composer;
+% my ($works) = @_;
+<p align="left">
+% my $first = 1;
+% for my $work (@$works) {
+%   if ($first) {
+%     $first = 0;
+%   } else {
+<br />
+%   }
+<a href="<%= $work->url %>"><%= $work->label %></a>
+%   }
+</p>
+EOF
 }
 
 1;
-

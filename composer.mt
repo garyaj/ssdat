@@ -1,3 +1,5 @@
+% use lib './lib';
+% use Composer;
 % my ($works) = @_;
 <p align="left">
 % my $first = 1;

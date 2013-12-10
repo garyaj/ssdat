@@ -1,3 +1,6 @@
+% use lib './lib';
+% use Work;
+% use MultiWork;
 % my ($sections) = @_;
 <h2><%= ($sections->[0]{dwork}) ? $sections->[0]{dwork} : $sections->[0]{work} %></h2>
 <table>

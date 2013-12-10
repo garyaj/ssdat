@@ -15,7 +15,7 @@ sub addrec {
     push @{$self->composers}, $o;
   }
   if (!@{$self->composers->[-1]->works} or $self->composers->[-1]->works->[-1]->work ne $flds->{work}) {
-    $o = ($flds->{genre} eq 'mass') ? MultiWork->new : SingleWork->new;
+    $o = ($flds->{genre} =~ /mass|oratorio/) ? MultiWork->new : SingleWork->new;
     $o->initfromflds($flds);
     push @{$self->composers->[-1]->works}, $o;
   }
@@ -60,10 +60,6 @@ sub outputconfig {
 sub outputdir {
   my $self = shift;
   foreach my $composer (@{$self->composers}) {
-    $composer->outputdat($composer->works);
-    foreach my $work (@{$composer->works}) {
-      $work->outputdat($work->sections);
-    }
   }
 }
 
