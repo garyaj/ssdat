@@ -29,7 +29,6 @@
 package MusicData;
 use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
-use Mojo::Template;
 
 has uniqid        => (isa => Str, is => 'rw');
 has label         => (isa => Str, is => 'rw');
@@ -46,10 +45,9 @@ sub initurl {
 }
 
 sub outputdat {
-  my $self = shift;
-  my $mt = Mojo::Template->new;
+  my ($self, $items) = @_;
   open my $out, ">", 'page/'.$self->uniqid.'.dat' or die "$self->uniqid: $!";
-  print $out $mt->render_file($self->format.'.mt', $self->sections);
+  print $out $self->tohtml($items);
   close $out;
 }
 
@@ -78,7 +76,7 @@ sub addrec {
   #then push flds into composers, works, sections and parts
   my ($self, $flds) = @_;
   my $o;
-  if (!@{$self->composers} or $self->composers->[-1] ne $flds->{composer}) {
+  if (!@{$self->composers} or $self->composers->[-1]->composer ne $flds->{composer}) {
     $o = Composer->new;
     $o->initfromflds($flds);
     push @{$self->composers}, $o;
@@ -88,27 +86,40 @@ sub addrec {
     $o->initfromflds($flds);
     push @{$self->composers->[-1]->works}, $o;
   }
-  if (!@{$self->composers->[-1]->works->[-1]->sections} or $self->composers->[-1]->works->[-1]->sections->[-1]->section ne $flds->{section}) {
+  if (!@{$self->composers->[-1]->works->[-1]->sections}
+      or $self->composers->[-1]->works->[-1]->sections->[-1]->section ne $flds->{section}) {
     $o = Section->new;
     $o->initfromflds($flds);
     push @{$self->composers->[-1]->works->[-1]->sections}, $o;
   }
-  $o = Part->new;
-  $o->initfromflds($flds);
-  push @{$self->composers->[-1]->works->[-1]->sections->[-1]->parts}, $o;
+  if (!@{$self->composers->[-1]->works->[-1]->sections->[-1]->parts}
+      or $self->composers->[-1]->works->[-1]->sections->[-1]->parts->[-1]->part ne $flds->{part}) {
+    $o = Part->new;
+    $o->initfromflds($flds);
+    push @{$self->composers->[-1]->works->[-1]->sections->[-1]->parts}, $o;
+  }
 }
 
 sub outputdat {
   my $self = shift;
-  $_->outputdat foreach (@$self->composers);
+  foreach my $composer (@{$self->composers}) {
+    $composer->outputdat($composer->works);
+    foreach my $work (@{$composer->works}) {
+      $work->outputdat($work->sections);
+    }
+  }
 }
 
 sub outputconfig {
   my $self = shift;
   my $Config = Config::Tiny->new;
-  foreach my $composer (@$self->composers) {
+  foreach my $composer (@{$self->composers}) {
     my ($id, $values) = $composer->config;
     $Config->{$id} = $values;
+    foreach my $work (@{$composer->works}) {
+      my ($id, $values) = $work->config;
+      $Config->{$id} = $values;
+    }
   }
   $Config->write( 'new.meta', 'utf8' ); #save page data to 'new.meta' file
 }
@@ -118,19 +129,37 @@ package Composer;
 use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
 extends 'MusicData';
+has '+layout' => (default => 'composer');
 has composer => (isa => Str, is => 'rw');
 has dcomposer => (isa => Str, is => 'rw');
 has works => (isa => ArrayRef[InstanceOf['Work']], is => 'rw', default => sub {[]});
-has template => (isa => Str, is => 'rw', default => 'composer');
+
 sub initfromflds {
   my ($self, $flds) = @_;
   $self->uniqid($flds->{composer});
-  $self->label($flds->{dcomposer});
+  $self->label($flds->{dcomposer}?$flds->{dcomposer}:ucfirst($flds->{composer}));
+  $self->title($flds->{composer});
   $self->initurl;
+  $self->composer($flds->{composer});
+  $self->dcomposer($flds->{dcomposer});
   my $o = ($flds->{genre} eq 'mass') ? MultiWork->new : SingleWork->new;
   $o->initfromflds($flds);
   push @{$self->works}, $o;
 }
+
+sub tohtml {
+  my ($self, $items) = @_;
+  my $s = "<p align=\"left\">\n";
+  my $first = 1;
+  for my $item (@$items) {
+    $s .= "<br />\n" unless $first;
+    $s .= '<a href="'.$item->url.'">'.$item->label."</a>\n";
+    $first = 0;
+  }
+  $s .= "</p>\n";
+  return $s;
+}
+
 1;
 
 package Work;
@@ -138,12 +167,14 @@ use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
 extends 'MusicData';
 has [qw{genre work dwork} ] => (isa => Str, is => 'rw');
+has '+layout' => (default => 'work');
 has sections => (isa => ArrayRef[InstanceOf['Section']], is => 'rw', default => sub {[]});
-has template => (isa => Str, is => 'rw');
 sub initfromflds {
   my ($self, $flds) = @_;
   $self->uniqid($flds->{composer}.'-'.$flds->{work});
-  $self->label($flds->{dcomposer}.' - '.$flds->{dwork});
+  $self->label( ($flds->{dcomposer}?$flds->{dcomposer}:ucfirst($flds->{composer})).' - '.
+                ($flds->{dwork}?$flds->{dwork}:ucfirst($flds->{work})) );
+  $self->title($flds->{composer}.'-'.$flds->{work});
   $self->initurl;
   $self->genre($flds->{genre});
   $self->work($flds->{work});
@@ -152,20 +183,78 @@ sub initfromflds {
   $o->initfromflds($flds);
   push @{$self->sections}, $o;
 }
+
+sub tohtml {
+  my ($self, $items) = @_;
+  my $s;
+  $s .= <<EOT;
+<table>
+<tbody>
+EOT
+  my $prevsec = '';
+  for my $item (@$items) {
+    if ($self->work ne $prevsec) {
+      if ($prevsec) {
+        $s .= <<EOT;
+</tr>
+EOT
+      }
+      $s .= <<EOT;
+<tr>
+EOT
+      $s .= '<td>';
+      $s .= $self->dwork ? $self->dwork : ucfirst($self->work);
+      $s .= <<EOT;
+</td>
+EOT
+    }
+  for my $part (@{$item->parts}) {
+    $s .= <<EOT;
+<td>
+EOT
+    if ($part->ytid) {
+      my $p = $part->ytid;
+      $s .= <<EOT;
+  <a href="http://youtu.be/$p?hd=1"><img style="padding: 0 5px 0 20px;" src="/images/icon_youtube_16x16.gif" alt="Click to view on YouTube" /></a>
+EOT
+    }
+      my $p = $part->dpart ? $part->dpart : ucfirst($part->part);
+      $s .= <<EOT;
+  <a href="http://drive.google.com/uc?export=view&amp;id=$p"></a>
+EOT
+    $s .= <<EOT;
+</td>
+EOT
+    }
+    $prevsec = $self->work;
+   }
+      $s .= <<EOT;
+</tr>
+</tbody>
+</table>
+EOT
+  return $s;
+}
 1;
 
 package MultiWork;
 use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
 extends 'Work';
-has '+template' => (default => 'mass');
+around 'tohtml' => sub {
+  my $orig = shift;
+  my $self = shift;
+  my $s = '<h2>'.($self->dwork ? $self->dwork : $self->work)."</h2>\n";
+  $s .= $orig->($self, @_);
+  return $s;
+};
 1;
 
 package SingleWork;
 use Moo;
 use MooX::Types::MooseLike::Base qw(:all);
 extends 'Work';
-has '+template' => (default => 'song');
+
 1;
 
 package Section;
@@ -192,7 +281,7 @@ sub initfromflds {
   $self->part($flds->{part});
   $self->gdid($flds->{gdid});
   $self->dpart($flds->{dpart});
-  $self->ytid($flds->{ytid});
+  $self->ytid($flds->{ytid} // '');
 }
 1;
 

@@ -1,3 +1,12 @@
+[adam]
+label=Adam
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=adam
+type=page
+url=/adam.html
+
 [adam-oholynight]
 label=Adam - O Holy Night
 lastpublished=
@@ -16,8 +25,17 @@ title=adam-oholynightforchoir
 type=page
 url=/adam-oholynightforchoir.html
 
+[aichinger]
+label=Aichinger
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=aichinger
+type=page
+url=/aichinger.html
+
 [aichinger-osacrumconvivium]
-label=aichinger - osacrumconvivium
+label=Aichinger - Osacrumconvivium
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -26,13 +44,22 @@ type=page
 url=/aichinger-osacrumconvivium.html
 
 [aichinger-reginacaeli]
-label=aichinger - reginacaeli
+label=Aichinger - Reginacaeli
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=aichinger-reginacaeli
 type=page
 url=/aichinger-reginacaeli.html
+
+[bach]
+label=Bach
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=bach
+type=page
+url=/bach.html
 
 [bach-jesujoyofmansdesiring]
 label=Bach - Jesu, Joy of Man's Desiring
@@ -53,7 +80,7 @@ type=page
 url=/bach-ohauptvollblut.html
 
 [bach-zionhearschorale]
-label=bach - zionhearschorale
+label=Bach - Zionhearschorale
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -61,8 +88,17 @@ title=bach-zionhearschorale
 type=page
 url=/bach-zionhearschorale.html
 
+[bainton]
+label=Bainton
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=bainton
+type=page
+url=/bainton.html
+
 [bainton-andisaw]
-label=bainton - andisaw
+label=Bainton - Andisaw
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -70,14 +106,32 @@ title=bainton-andisaw
 type=page
 url=/bainton-andisaw.html
 
+[bragers]
+label=Bragers
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=bragers
+type=page
+url=/bragers.html
+
 [bragers-missareginaepacis]
-label=bragers - missareginaepacis
+label=Bragers - Missareginaepacis
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=bragers-missareginaepacis
 type=page
 url=/bragers-missareginaepacis.html
+
+[brahms]
+label=Brahms
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=brahms
+type=page
+url=/brahms.html
 
 [brahms-howlovelyarethydwellings]
 label=Brahms - How lovely are Thy dwellings
@@ -88,8 +142,17 @@ title=brahms-howlovelyarethydwellings
 type=page
 url=/brahms-howlovelyarethydwellings.html
 
+[briggs]
+label=Briggs
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=briggs
+type=page
+url=/briggs.html
+
 [briggs-missasanctaemariae]
-label=briggs - missasanctaemariae
+label=Briggs - Missasanctaemariae
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -97,14 +160,32 @@ title=briggs-missasanctaemariae
 type=page
 url=/briggs-missasanctaemariae.html
 
+[britten]
+label=Britten
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=britten
+type=page
+url=/britten.html
+
 [britten-ahymntothevirgin]
-label=britten - ahymntothevirgin
+label=Britten - Ahymntothevirgin
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=britten-ahymntothevirgin
 type=page
 url=/britten-ahymntothevirgin.html
+
+[bruckner]
+label=Bruckner
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=bruckner
+type=page
+url=/bruckner.html
 
 [bruckner-locusiste]
 label=Bruckner - Locus Iste
@@ -116,7 +197,7 @@ type=page
 url=/bruckner-locusiste.html
 
 [bruckner-virgajesse]
-label=bruckner - virgajesse
+label=Bruckner - Virgajesse
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -124,8 +205,17 @@ title=bruckner-virgajesse
 type=page
 url=/bruckner-virgajesse.html
 
+[brumby]
+label=Brumby
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=brumby
+type=page
+url=/brumby.html
+
 [brumby-godbeinmyhead]
-label=brumby - godbeinmyhead
+label=Brumby - Godbeinmyhead
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -134,7 +224,7 @@ type=page
 url=/brumby-godbeinmyhead.html
 
 [brumby-prayertojesus]
-label=brumby - prayertojesus
+label=Brumby - Prayertojesus
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -143,7 +233,7 @@ type=page
 url=/brumby-prayertojesus.html
 
 [brumby-surrexitchristus]
-label=brumby - surrexitchristus
+label=Brumby - Surrexitchristus
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -151,8 +241,17 @@ title=brumby-surrexitchristus
 type=page
 url=/brumby-surrexitchristus.html
 
+[busto]
+label=Busto
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=busto
+type=page
+url=/busto.html
+
 [busto-avemariabusto]
-label=busto - avemariabusto
+label=Busto - Avemariabusto
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -160,8 +259,17 @@ title=busto-avemariabusto
 type=page
 url=/busto-avemariabusto.html
 
+[butz]
+label=Butz
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=butz
+type=page
+url=/butz.html
+
 [butz-missasurrexit]
-label=butz - missasurrexit
+label=Butz - Missasurrexit
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -170,13 +278,22 @@ type=page
 url=/butz-missasurrexit.html
 
 [butz-ms1]
-label=butz - ms1
+label=Butz - Ms1
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=butz-ms1
 type=page
 url=/butz-ms1.html
+
+[byrd]
+label=Byrd
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=byrd
+type=page
+url=/byrd.html
 
 [byrd-aveverumcorpus]
 label=Byrd - Ave Verum Corpus
@@ -196,14 +313,32 @@ title=byrd-massfor3voices
 type=page
 url=/byrd-massfor3voices.html
 
+[caesar]
+label=Caesar
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=caesar
+type=page
+url=/caesar.html
+
 [caesar-stmarysmass]
-label=caesar - stmarysmass
+label=Caesar - Stmarysmass
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=caesar-stmarysmass
 type=page
 url=/caesar-stmarysmass.html
+
+[carol]
+label=carol
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=carol
+type=page
+url=/carol.html
 
 [carol-agreatandmightywonder]
 label=carol - A Great and Mighty Wonder
@@ -224,7 +359,7 @@ type=page
 url=/carol-angelsfromtherealmsofglory.html
 
 [carol-appletree]
-label=carol - appletree
+label=Carol - Appletree
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -242,7 +377,7 @@ type=page
 url=/carol-awayinamanger.html
 
 [carol-caroloftheadvent]
-label=carol - caroloftheadvent
+label=Carol - Caroloftheadvent
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -269,7 +404,7 @@ type=page
 url=/carol-coventrycarol.html
 
 [carol-drovers]
-label=carol - drovers
+label=Carol - Drovers
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -296,7 +431,7 @@ type=page
 url=/carol-harktheheraldangelssing.html
 
 [carol-hymnalavierge]
-label=carol - hymnalavierge
+label=Carol - Hymnalavierge
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -332,7 +467,7 @@ type=page
 url=/carol-onceinroyaldavidscity.html
 
 [carol-praisemysoul]
-label=carol - praisemysoul
+label=Carol - Praisemysoul
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -341,7 +476,7 @@ type=page
 url=/carol-praisemysoul.html
 
 [carol-praisetotheholiest]
-label=carol - praisetotheholiest
+label=Carol - Praisetotheholiest
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -350,7 +485,7 @@ type=page
 url=/carol-praisetotheholiest.html
 
 [carol-quempastores]
-label=carol - quempastores
+label=Carol - Quempastores
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -359,7 +494,7 @@ type=page
 url=/carol-quempastores.html
 
 [carol-silentnight]
-label=carol - silentnight
+label=Carol - Silentnight
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -368,7 +503,7 @@ type=page
 url=/carol-silentnight.html
 
 [carol-silverstars]
-label=carol - silverstars
+label=Carol - Silverstars
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -377,7 +512,7 @@ type=page
 url=/carol-silverstars.html
 
 [carol-stealaway]
-label=carol - stealaway
+label=Carol - Stealaway
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -386,7 +521,7 @@ type=page
 url=/carol-stealaway.html
 
 [carol-stillenacht]
-label=carol - stillenacht
+label=Carol - Stillenacht
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -395,7 +530,7 @@ type=page
 url=/carol-stillenacht.html
 
 [carol-strifeisoer]
-label=carol - strifeisoer
+label=Carol - Strifeisoer
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -404,7 +539,7 @@ type=page
 url=/carol-strifeisoer.html
 
 [carol-takeupcross]
-label=carol - takeupcross
+label=Carol - Takeupcross
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -431,7 +566,7 @@ type=page
 url=/carol-thefirstnowell.html
 
 [carol-thelordupholdsmylife]
-label=carol - thelordupholdsmylife
+label=Carol - Thelordupholdsmylife
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -440,7 +575,7 @@ type=page
 url=/carol-thelordupholdsmylife.html
 
 [carol-thereshallastar]
-label=carol - thereshallastar
+label=Carol - Thereshallastar
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -449,7 +584,7 @@ type=page
 url=/carol-thereshallastar.html
 
 [carol-thereshallastar1]
-label=carol - thereshallastar1
+label=Carol - Thereshallastar1
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -458,7 +593,7 @@ type=page
 url=/carol-thereshallastar1.html
 
 [carol-thereshallastar2]
-label=carol - thereshallastar2
+label=Carol - Thereshallastar2
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -467,7 +602,7 @@ type=page
 url=/carol-thereshallastar2.html
 
 [carol-thereshallastar3]
-label=carol - thereshallastar3
+label=Carol - Thereshallastar3
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -476,7 +611,7 @@ type=page
 url=/carol-thereshallastar3.html
 
 [carol-virgingreat]
-label=carol - virgingreat
+label=Carol - Virgingreat
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -485,7 +620,7 @@ type=page
 url=/carol-virgingreat.html
 
 [carol-wepraisethyname]
-label=carol - wepraisethyname
+label=Carol - Wepraisethyname
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -493,14 +628,32 @@ title=carol-wepraisethyname
 type=page
 url=/carol-wepraisethyname.html
 
+[casciolini]
+label=Casciolini
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=casciolini
+type=page
+url=/casciolini.html
+
 [casciolini-missabrevissima]
-label=casciolini - missabrevissima
+label=Casciolini - Missabrevissima
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=casciolini-missabrevissima
 type=page
 url=/casciolini-missabrevissima.html
+
+[charpentier]
+label=Charpentier
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=charpentier
+type=page
+url=/charpentier.html
 
 [charpentier-messedeminuit]
 label=Charpentier - Messe de Minuit
@@ -511,8 +664,17 @@ title=charpentier-messedeminuit
 type=page
 url=/charpentier-messedeminuit.html
 
+[cornelius]
+label=Cornelius
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=cornelius
+type=page
+url=/cornelius.html
+
 [cornelius-threekings]
-label=cornelius - threekings
+label=Cornelius - Threekings
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -520,8 +682,17 @@ title=cornelius-threekings
 type=page
 url=/cornelius-threekings.html
 
+[darke]
+label=Darke
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=darke
+type=page
+url=/darke.html
+
 [darke-communionine]
-label=darke - communionine
+label=Darke - Communionine
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -530,7 +701,7 @@ type=page
 url=/darke-communionine.html
 
 [darke-communioninf]
-label=darke - communioninf
+label=Darke - Communioninf
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -538,8 +709,17 @@ title=darke-communioninf
 type=page
 url=/darke-communioninf.html
 
+[davies]
+label=Davies
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=davies
+type=page
+url=/davies.html
+
 [davies-blestarepureheart]
-label=davies - blestarepureheart
+label=Davies - Blestarepureheart
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -547,8 +727,17 @@ title=davies-blestarepureheart
 type=page
 url=/davies-blestarepureheart.html
 
+[douglas]
+label=Douglas
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=douglas
+type=page
+url=/douglas.html
+
 [douglas-deeppeace]
-label=douglas - deeppeace
+label=Douglas - Deeppeace
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -556,8 +745,17 @@ title=douglas-deeppeace
 type=page
 url=/douglas-deeppeace.html
 
+[drury]
+label=Drury
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=drury
+type=page
+url=/drury.html
+
 [drury-massmarymackillop]
-label=drury - massmarymackillop
+label=Drury - Massmarymackillop
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -565,8 +763,17 @@ title=drury-massmarymackillop
 type=page
 url=/drury-massmarymackillop.html
 
+[durufle]
+label=Durufle
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=durufle
+type=page
+url=/durufle.html
+
 [durufle-requiem]
-label=durufle - requiem
+label=Durufle - Requiem
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -575,7 +782,7 @@ type=page
 url=/durufle-requiem.html
 
 [durufle-ubicaritas]
-label=durufle - ubicaritas
+label=Durufle - Ubicaritas
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -583,8 +790,17 @@ title=durufle-ubicaritas
 type=page
 url=/durufle-ubicaritas.html
 
+[dyson]
+label=Dyson
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=dyson
+type=page
+url=/dyson.html
+
 [dyson-magnificat]
-label=dyson - magnificat
+label=Dyson - Magnificat
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -592,8 +808,17 @@ title=dyson-magnificat
 type=page
 url=/dyson-magnificat.html
 
+[elgar]
+label=Elgar
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=elgar
+type=page
+url=/elgar.html
+
 [elgar-avemaria]
-label=elgar - avemaria
+label=Elgar - Avemaria
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -611,7 +836,7 @@ type=page
 url=/elgar-aveverum.html
 
 [elgar-lightoftheworld]
-label=elgar - lightoftheworld
+label=Elgar - Lightoftheworld
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -619,8 +844,17 @@ title=elgar-lightoftheworld
 type=page
 url=/elgar-lightoftheworld.html
 
+[farrant]
+label=Farrant
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=farrant
+type=page
+url=/farrant.html
+
 [farrant-hidenotthou]
-label=farrant - hidenotthou
+label=Farrant - Hidenotthou
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -628,8 +862,17 @@ title=farrant-hidenotthou
 type=page
 url=/farrant-hidenotthou.html
 
+[faure]
+label=Faure
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=faure
+type=page
+url=/faure.html
+
 [faure-aveverum]
-label=faure - aveverum
+label=Faure - Aveverum
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -655,8 +898,17 @@ title=faure-requiem
 type=page
 url=/faure-requiem.html
 
+[franck]
+label=Franck
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=franck
+type=page
+url=/franck.html
+
 [franck-panisangelicus]
-label=franck - panisangelicus
+label=Franck - Panisangelicus
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -664,8 +916,17 @@ title=franck-panisangelicus
 type=page
 url=/franck-panisangelicus.html
 
+[gabrieli]
+label=Gabrieli
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=gabrieli
+type=page
+url=/gabrieli.html
+
 [gabrieli-jubilatedeo]
-label=gabrieli - jubilatedeo
+label=Gabrieli - Jubilatedeo
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -674,13 +935,22 @@ type=page
 url=/gabrieli-jubilatedeo.html
 
 [gabrieli-osacrumconvivium]
-label=gabrieli - osacrumconvivium
+label=Gabrieli - Osacrumconvivium
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=gabrieli-osacrumconvivium
 type=page
 url=/gabrieli-osacrumconvivium.html
+
+[gardner]
+label=Gardner
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=gardner
+type=page
+url=/gardner.html
 
 [gardner-tomorrowshallbemydancingday]
 label=Gardner - Tomorrow shall be my dancing day
@@ -691,8 +961,17 @@ title=gardner-tomorrowshallbemydancingday
 type=page
 url=/gardner-tomorrowshallbemydancingday.html
 
+[gibbons]
+label=Gibbons
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=gibbons
+type=page
+url=/gibbons.html
+
 [gibbons-almightyeverlasting]
-label=gibbons - almightyeverlasting
+label=Gibbons - Almightyeverlasting
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -701,7 +980,7 @@ type=page
 url=/gibbons-almightyeverlasting.html
 
 [gibbons-thisistherecordofjohn]
-label=gibbons - thisistherecordofjohn
+label=Gibbons - Thisistherecordofjohn
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -709,14 +988,32 @@ title=gibbons-thisistherecordofjohn
 type=page
 url=/gibbons-thisistherecordofjohn.html
 
+[goodall]
+label=Goodall
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=goodall
+type=page
+url=/goodall.html
+
 [goodall-thelordismyshepherd]
-label=goodall - thelordismyshepherd
+label=Goodall - Thelordismyshepherd
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=goodall-thelordismyshepherd
 type=page
 url=/goodall-thelordismyshepherd.html
+
+[greene]
+label=Greene
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=greene
+type=page
+url=/greene.html
 
 [greene-lordletmeknowmineend]
 label=Greene - Lord, let me know mine end
@@ -727,14 +1024,32 @@ title=greene-lordletmeknowmineend
 type=page
 url=/greene-lordletmeknowmineend.html
 
+[grieg]
+label=Grieg
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=grieg
+type=page
+url=/grieg.html
+
 [grieg-avemarisstella]
-label=grieg - avemarisstella
+label=Grieg - Avemarisstella
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=grieg-avemarisstella
 type=page
 url=/grieg-avemarisstella.html
+
+[handel]
+label=Handel
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=handel
+type=page
+url=/handel.html
 
 [handel-messiah]
 label=Handel - Messiah
@@ -745,14 +1060,32 @@ title=handel-messiah
 type=page
 url=/handel-messiah.html
 
+[hassler]
+label=Hassler
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=hassler
+type=page
+url=/hassler.html
+
 [hassler-dixitmaria]
-label=hassler - dixitmaria
+label=Hassler - Dixitmaria
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=hassler-dixitmaria
 type=page
 url=/hassler-dixitmaria.html
+
+[haydn]
+label=Haydn
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=haydn
+type=page
+url=/haydn.html
 
 [haydn-harmoniemesse]
 label=Haydn - Harmoniemesse
@@ -764,7 +1097,7 @@ type=page
 url=/haydn-harmoniemesse.html
 
 [haydn-jugendmesse]
-label=haydn - jugendmesse
+label=Haydn - Jugendmesse
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -782,7 +1115,7 @@ type=page
 url=/haydn-missabrevis.html
 
 [haydn-missasanctinicolai]
-label=haydn - missasanctinicolai
+label=Haydn - Missasanctinicolai
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -799,8 +1132,17 @@ title=haydn-theheavensaretelling
 type=page
 url=/haydn-theheavensaretelling.html
 
+[holst]
+label=Holst
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=holst
+type=page
+url=/holst.html
+
 [holst-turnback]
-label=holst - turnback
+label=Holst - Turnback
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -808,8 +1150,17 @@ title=holst-turnback
 type=page
 url=/holst-turnback.html
 
+[howells]
+label=Howells
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=howells
+type=page
+url=/howells.html
+
 [howells-aspotlessrose]
-label=Howells - A Spotless Rose
+label=Howells - Aspotlessrose
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -818,7 +1169,7 @@ type=page
 url=/howells-aspotlessrose.html
 
 [howells-likeasthehart]
-label=Howells - Like As The Hart
+label=Howells - Likeasthehart
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -826,8 +1177,17 @@ title=howells-likeasthehart
 type=page
 url=/howells-likeasthehart.html
 
+[ireland]
+label=Ireland
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=ireland
+type=page
+url=/ireland.html
+
 [ireland-greaterlove]
-label=ireland - greaterlove
+label=Ireland - Greaterlove
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -835,8 +1195,17 @@ title=ireland-greaterlove
 type=page
 url=/ireland-greaterlove.html
 
+[jelineau]
+label=Jelineau
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=jelineau
+type=page
+url=/jelineau.html
+
 [jelineau-missaresponsorialis]
-label=jelineau - missaresponsorialis
+label=Jelineau - Missaresponsorialis
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -844,8 +1213,17 @@ title=jelineau-missaresponsorialis
 type=page
 url=/jelineau-missaresponsorialis.html
 
+[koehne]
+label=Koehne
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=koehne
+type=page
+url=/koehne.html
+
 [koehne-lookingatthestars]
-label=koehne - lookingatthestars
+label=Koehne - Lookingatthestars
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -853,8 +1231,17 @@ title=koehne-lookingatthestars
 type=page
 url=/koehne-lookingatthestars.html
 
+[lake]
+label=Lake
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=lake
+type=page
+url=/lake.html
+
 [lake-olorde]
-label=lake - olorde
+label=Lake - Olorde
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -862,14 +1249,32 @@ title=lake-olorde
 type=page
 url=/lake-olorde.html
 
+[lloydwebber]
+label=Lloydwebber
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=lloydwebber
+type=page
+url=/lloydwebber.html
+
 [lloydwebber-pacis]
-label=lloydwebber - pacis
+label=Lloydwebber - Pacis
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=lloydwebber-pacis
 type=page
 url=/lloydwebber-pacis.html
+
+[lotti]
+label=Lotti
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=lotti
+type=page
+url=/lotti.html
 
 [lotti-simplemass]
 label=Lotti - Simple Mass
@@ -880,8 +1285,17 @@ title=lotti-simplemass
 type=page
 url=/lotti-simplemass.html
 
+[madden]
+label=Madden
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=madden
+type=page
+url=/madden.html
+
 [madden-heisrisen]
-label=madden - heisrisen
+label=Madden - Heisrisen
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -889,8 +1303,17 @@ title=madden-heisrisen
 type=page
 url=/madden-heisrisen.html
 
+[mathias]
+label=Mathias
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=mathias
+type=page
+url=/mathias.html
+
 [mathias-missaaedis]
-label=mathias - missaaedis
+label=Mathias - Missaaedis
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -898,8 +1321,17 @@ title=mathias-missaaedis
 type=page
 url=/mathias-missaaedis.html
 
+[mawby]
+label=Mawby
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=mawby
+type=page
+url=/mawby.html
+
 [mawby-holyparadox]
-label=mawby - holyparadox
+label=Mawby - Holyparadox
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -907,14 +1339,32 @@ title=mawby-holyparadox
 type=page
 url=/mawby-holyparadox.html
 
+[mckie]
+label=Mckie
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=mckie
+type=page
+url=/mckie.html
+
 [mckie-lovingkindness]
-label=mckie - lovingkindness
+label=Mckie - Lovingkindness
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=mckie-lovingkindness
 type=page
 url=/mckie-lovingkindness.html
+
+[mendelssohn]
+label=Mendelssohn
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=mendelssohn
+type=page
+url=/mendelssohn.html
 
 [mendelssohn-heilig]
 label=Mendelssohn - Heilig
@@ -926,7 +1376,7 @@ type=page
 url=/mendelssohn-heilig.html
 
 [mendelssohn-thereshallastar]
-label=mendelssohn - thereshallastar
+label=Mendelssohn - Thereshallastar
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -935,7 +1385,7 @@ type=page
 url=/mendelssohn-thereshallastar.html
 
 [mendelssohn-thereshallastar1]
-label=mendelssohn - thereshallastar1
+label=Mendelssohn - Thereshallastar1
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -944,7 +1394,7 @@ type=page
 url=/mendelssohn-thereshallastar1.html
 
 [mendelssohn-thereshallastar2]
-label=mendelssohn - thereshallastar2
+label=Mendelssohn - Thereshallastar2
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -953,7 +1403,7 @@ type=page
 url=/mendelssohn-thereshallastar2.html
 
 [mendelssohn-thereshallastar3]
-label=mendelssohn - thereshallastar3
+label=Mendelssohn - Thereshallastar3
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -962,7 +1412,7 @@ type=page
 url=/mendelssohn-thereshallastar3.html
 
 [mendelssohn-verleih]
-label=mendelssohn - verleih
+label=Mendelssohn - Verleih
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -970,8 +1420,17 @@ title=mendelssohn-verleih
 type=page
 url=/mendelssohn-verleih.html
 
+[millington]
+label=Millington
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=millington
+type=page
+url=/millington.html
+
 [millington-missaalmepater]
-label=millington - missaalmepater
+label=Millington - Missaalmepater
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -979,14 +1438,32 @@ title=millington-missaalmepater
 type=page
 url=/millington-missaalmepater.html
 
+[mills]
+label=Mills
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=mills
+type=page
+url=/mills.html
+
 [mills-godbeinmyhead]
-label=mills - godbeinmyhead
+label=Mills - Godbeinmyhead
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=mills-godbeinmyhead
 type=page
 url=/mills-godbeinmyhead.html
+
+[mozart]
+label=Mozart
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=mozart
+type=page
+url=/mozart.html
 
 [mozart-aveverumcorpus]
 label=Mozart - Ave Verum Corpus
@@ -1007,7 +1484,7 @@ type=page
 url=/mozart-coronationmass.html
 
 [mozart-laudatedominum]
-label=Mozart - Laudate Dominum
+label=Mozart - Laudatedominum
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1016,7 +1493,7 @@ type=page
 url=/mozart-laudatedominum.html
 
 [mozart-missabrevisdminor]
-label=mozart - missabrevisdminor
+label=Mozart - Missabrevisdminor
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1033,8 +1510,17 @@ title=mozart-spatzenmesse
 type=page
 url=/mozart-spatzenmesse.html
 
+[palestrina]
+label=Palestrina
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=palestrina
+type=page
+url=/palestrina.html
+
 [palestrina-egosum]
-label=palestrina - egosum
+label=Palestrina - Egosum
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1043,7 +1529,7 @@ type=page
 url=/palestrina-egosum.html
 
 [palestrina-matinresponsory]
-label=palestrina - matinresponsory
+label=Palestrina - Matinresponsory
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1052,7 +1538,7 @@ type=page
 url=/palestrina-matinresponsory.html
 
 [palestrina-missabrevis]
-label=palestrina - missabrevis
+label=Palestrina - Missabrevis
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1070,7 +1556,7 @@ type=page
 url=/palestrina-sicutcervus.html
 
 [palestrina-tantumergo]
-label=palestrina - tantumergo
+label=Palestrina - Tantumergo
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1078,8 +1564,17 @@ title=palestrina-tantumergo
 type=page
 url=/palestrina-tantumergo.html
 
+[peeters]
+label=Peeters
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=peeters
+type=page
+url=/peeters.html
+
 [peeters-massinhonorofsaintjoseph]
-label=peeters - massinhonorofsaintjoseph
+label=Peeters - Massinhonorofsaintjoseph
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1087,8 +1582,17 @@ title=peeters-massinhonorofsaintjoseph
 type=page
 url=/peeters-massinhonorofsaintjoseph.html
 
+[pergolesi]
+label=Pergolesi
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=pergolesi
+type=page
+url=/pergolesi.html
+
 [pergolesi-magnificat]
-label=pergolesi - magnificat
+label=Pergolesi - Magnificat
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1096,8 +1600,17 @@ title=pergolesi-magnificat
 type=page
 url=/pergolesi-magnificat.html
 
+[perosi]
+label=Perosi
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=perosi
+type=page
+url=/perosi.html
+
 [perosi-missabenedicamusdomino]
-label=perosi - missabenedicamusdomino
+label=Perosi - Missabenedicamusdomino
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1105,8 +1618,17 @@ title=perosi-missabenedicamusdomino
 type=page
 url=/perosi-missabenedicamusdomino.html
 
+[pitoni]
+label=Pitoni
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=pitoni
+type=page
+url=/pitoni.html
+
 [pitoni-cantatedomino]
-label=pitoni - cantatedomino
+label=Pitoni - Cantatedomino
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1114,8 +1636,17 @@ title=pitoni-cantatedomino
 type=page
 url=/pitoni-cantatedomino.html
 
+[purcell]
+label=Purcell
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=purcell
+type=page
+url=/purcell.html
+
 [purcell-thouknowestlord]
-label=purcell - thouknowestlord
+label=Purcell - Thouknowestlord
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1123,8 +1654,17 @@ title=purcell-thouknowestlord
 type=page
 url=/purcell-thouknowestlord.html
 
+[refice]
+label=Refice
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=refice
+type=page
+url=/refice.html
+
 [refice-massfortwovoices]
-label=refice - massfortwovoices
+label=Refice - Massfortwovoices
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1132,8 +1672,17 @@ title=refice-massfortwovoices
 type=page
 url=/refice-massfortwovoices.html
 
+[route66]
+label=Route66
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=route66
+type=page
+url=/route66.html
+
 [route66-route66]
-label=route66 - route66
+label=Route66 - Route66
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1141,8 +1690,17 @@ title=route66-route66
 type=page
 url=/route66-route66.html
 
+[rubbra]
+label=Rubbra
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=rubbra
+type=page
+url=/rubbra.html
+
 [rubbra-missabrevis]
-label=rubbra - missabrevis
+label=Rubbra - Missabrevis
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1150,8 +1708,17 @@ title=rubbra-missabrevis
 type=page
 url=/rubbra-missabrevis.html
 
+[rutter]
+label=Rutter
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=rutter
+type=page
+url=/rutter.html
+
 [rutter-allthingsbright]
-label=rutter - allthingsbright
+label=Rutter - Allthingsbright
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1187,7 +1754,7 @@ type=page
 url=/rutter-christmaslullaby.html
 
 [rutter-forthebeautyoftheearth]
-label=rutter - forthebeautyoftheearth
+label=Rutter - Forthebeautyoftheearth
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1196,7 +1763,7 @@ type=page
 url=/rutter-forthebeautyoftheearth.html
 
 [rutter-goforth]
-label=rutter - goforth
+label=Rutter - Goforth
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1205,7 +1772,7 @@ type=page
 url=/rutter-goforth.html
 
 [rutter-maryslullaby]
-label=rutter - maryslullaby
+label=Rutter - Maryslullaby
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1223,7 +1790,7 @@ type=page
 url=/rutter-nativitycarol.html
 
 [rutter-newyear]
-label=rutter - newyear
+label=Rutter - Newyear
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1232,7 +1799,7 @@ type=page
 url=/rutter-newyear.html
 
 [rutter-starcarol]
-label=rutter - starcarol
+label=Rutter - Starcarol
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1241,13 +1808,22 @@ type=page
 url=/rutter-starcarol.html
 
 [rutter-whatsweeter]
-label=rutter - whatsweeter
+label=Rutter - Whatsweeter
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=rutter-whatsweeter
 type=page
 url=/rutter-whatsweeter.html
+
+[saintsaens]
+label=Saint-Saens
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=saintsaens
+type=page
+url=/saintsaens.html
 
 [saintsaens-oratoriodenoel]
 label=Saint-Saens - Oratorio de Noel
@@ -1258,8 +1834,17 @@ title=saintsaens-oratoriodenoel
 type=page
 url=/saintsaens-oratoriodenoel.html
 
+[scarlatti]
+label=Scarlatti
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=scarlatti
+type=page
+url=/scarlatti.html
+
 [scarlatti-missaquatuorvocum]
-label=scarlatti - missaquatuorvocum
+label=Scarlatti - Missaquatuorvocum
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1267,8 +1852,17 @@ title=scarlatti-missaquatuorvocum
 type=page
 url=/scarlatti-missaquatuorvocum.html
 
+[schubert]
+label=Schubert
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=schubert
+type=page
+url=/schubert.html
+
 [schubert-hosannafilio]
-label=schubert - hosannafilio
+label=Schubert - Hosannafilio
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1277,7 +1871,7 @@ type=page
 url=/schubert-hosannafilio.html
 
 [schubert-massing]
-label=schubert - massing
+label=Schubert - Massing
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1286,7 +1880,7 @@ type=page
 url=/schubert-massing.html
 
 [schubert-zumsanctus]
-label=schubert - zumsanctus
+label=Schubert - Zumsanctus
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1294,14 +1888,32 @@ title=schubert-zumsanctus
 type=page
 url=/schubert-zumsanctus.html
 
+[sibelius]
+label=Sibelius
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=sibelius
+type=page
+url=/sibelius.html
+
 [sibelius-bestillmysoul]
-label=sibelius - bestillmysoul
+label=Sibelius - Bestillmysoul
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=sibelius-bestillmysoul
 type=page
 url=/sibelius-bestillmysoul.html
+
+[stanford]
+label=Stanford
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=stanford
+type=page
+url=/stanford.html
 
 [stanford-beatiquorumvia]
 label=Stanford - Beati Quorum Via
@@ -1313,7 +1925,7 @@ type=page
 url=/stanford-beatiquorumvia.html
 
 [stanford-closerwalk]
-label=stanford - closerwalk
+label=Stanford - Closerwalk
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1322,7 +1934,7 @@ type=page
 url=/stanford-closerwalk.html
 
 [stanford-magnificating]
-label=stanford - magnificating
+label=Stanford - Magnificating
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1330,14 +1942,32 @@ title=stanford-magnificating
 type=page
 url=/stanford-magnificating.html
 
+[sumsion]
+label=Sumsion
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=sumsion
+type=page
+url=/sumsion.html
+
 [sumsion-timorettremor]
-label=sumsion - timorettremor
+label=Sumsion - Timorettremor
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=sumsion-timorettremor
 type=page
 url=/sumsion-timorettremor.html
+
+[tallis]
+label=Tallis
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=tallis
+type=page
+url=/tallis.html
 
 [tallis-ifyeloveme]
 label=Tallis - If Ye Love Me
@@ -1349,7 +1979,7 @@ type=page
 url=/tallis-ifyeloveme.html
 
 [tallis-ohlord]
-label=tallis - ohlord
+label=Tallis - Ohlord
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1357,14 +1987,32 @@ title=tallis-ohlord
 type=page
 url=/tallis-ohlord.html
 
+[tipping]
+label=Tipping
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=tipping
+type=page
+url=/tipping.html
+
 [tipping-missaaustralis]
-label=tipping - missaaustralis
+label=Tipping - Missaaustralis
 lastpublished=
 lastupdated=1386245606
 layout=work
 title=tipping-missaaustralis
 type=page
 url=/tipping-missaaustralis.html
+
+[tlvictoria]
+label=T.L.Victoria
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=tlvictoria
+type=page
+url=/tlvictoria.html
 
 [tlvictoria-jesudulcismemoria]
 label=T.L.Victoria - Jesu Dulcis Memoria
@@ -1376,7 +2024,7 @@ type=page
 url=/tlvictoria-jesudulcismemoria.html
 
 [tlvictoria-misaquartitoni]
-label=tlvictoria - misaquartitoni
+label=T.L.Victoria - Misa Quarti Toni
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1384,8 +2032,17 @@ title=tlvictoria-misaquartitoni
 type=page
 url=/tlvictoria-misaquartitoni.html
 
+[tomkins]
+label=Tomkins
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=tomkins
+type=page
+url=/tomkins.html
+
 [tomkins-iheardavoice]
-label=tomkins - iheardavoice
+label=Tomkins - Iheardavoice
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1393,8 +2050,17 @@ title=tomkins-iheardavoice
 type=page
 url=/tomkins-iheardavoice.html
 
+[viadana]
+label=Viadana
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=viadana
+type=page
+url=/viadana.html
+
 [viadana-exsultatejusti]
-label=viadana - exsultatejusti
+label=Viadana - Exsultatejusti
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1402,8 +2068,17 @@ title=viadana-exsultatejusti
 type=page
 url=/viadana-exsultatejusti.html
 
+[wesley]
+label=Wesley
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=wesley
+type=page
+url=/wesley.html
+
 [wesley-thouwiltkeep]
-label=wesley - thouwiltkeep
+label=Wesley - Thouwiltkeep
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1412,7 +2087,7 @@ type=page
 url=/wesley-thouwiltkeep.html
 
 [wesley-washme]
-label=wesley - washme
+label=Wesley - Washme
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1420,8 +2095,17 @@ title=wesley-washme
 type=page
 url=/wesley-washme.html
 
+[willcock]
+label=Willcock
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=willcock
+type=page
+url=/willcock.html
+
 [willcock-giveusapureheart]
-label=willcock - giveusapureheart
+label=Willcock - Giveusapureheart
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1430,7 +2114,7 @@ type=page
 url=/willcock-giveusapureheart.html
 
 [willcock-ificouldtell]
-label=willcock - ificouldtell
+label=Willcock - Ificouldtell
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1438,8 +2122,17 @@ title=willcock-ificouldtell
 type=page
 url=/willcock-ificouldtell.html
 
+[williams]
+label=Williams
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=williams
+type=page
+url=/williams.html
+
 [williams-downampney]
-label=williams - downampney
+label=Williams - Downampney
 lastpublished=
 lastupdated=1386245606
 layout=work
@@ -1455,6 +2148,15 @@ layout=work
 title=williams-thetruthfromabove
 type=page
 url=/williams-thetruthfromabove.html
+
+[wood]
+label=Wood
+lastpublished=
+lastupdated=1386245606
+layout=composer
+title=wood
+type=page
+url=/wood.html
 
 [wood-othouthecentralorb]
 label=Wood - O Thou the central orb

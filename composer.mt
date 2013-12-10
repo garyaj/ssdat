@@ -1,4 +1,12 @@
+% my ($works) = @_;
 <p align="left">
-<a href="/adam-oholynight.html">O Holy Night (Solo soprano + choir)</a>
-<br /><a href="/adam-oholynightall.html">O Holy Night (For choir)</a>
+% my $first = 1;
+% for my $work (@$works) {
+%   if ($first) {
+%     $first = 0;
+%   } else {
+<br />
+%   }
+<a href="<%= $work->url %>"><%= $work->label %></a>
+%   }
 </p>
