@@ -24,16 +24,18 @@ sub outputdat {
 }
 
 sub config {
-  return ( $_[0]->uniqid => {
-      label => $_[0]->label,
-      lastpublished => $_[0]->lastpublished,
-      lastupdated => $_[0]->lastupdated,
-      layout => $_[0]->layout,
-      title => $_[0]->title,
-      type => $_[0]->type,
-      url => $_[0]->url,
-    }
-  );
+  my $self = shift;
+  my $tiny = shift;
+  $tiny->tinyconfig->{$self->uniqid} = {
+      label => $self->label,
+      lastpublished => $self->lastpublished,
+      lastupdated => $self->lastupdated,
+      layout => $self->layout,
+      title => $self->title,
+      type => $self->type,
+      url => $self->url,
+  };
 }
+
 1;
 

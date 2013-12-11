@@ -46,6 +46,7 @@ $csv->column_names(@names);
 open my $fh, "<:encoding(utf8)", "gdytmerge.csv" or die "gdytmerge.csv: $!";
 
 my $composers = Composers->new();
+$composers->initconfig;
 while ( my $hr = $csv->getline_hr( $fh ) ) {
   next unless $hr->{work}; #ignore unparseable entries
   $composers->addrec($hr);
@@ -56,8 +57,8 @@ close $fh;
 
 #output .dat files and new.meta data
 $composers->outputdat;
-$composers->outputconfig;
 $composers->outputdir;
+$composers->outputconfig;
 
 # vi:ai:et:sw=2 ts=2
 
