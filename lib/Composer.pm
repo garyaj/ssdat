@@ -36,7 +36,7 @@ sub tohtml {
 %   } else {
 <br />\
 %   }
-<a href="<%= $work->url %>"><%= $work->label %></a>
+<a href="<%= $work->url %>"><%= ($work->dwork?$work->dwork:$work->work) %></a>
 %   }
 </p>
 EOF

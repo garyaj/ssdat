@@ -139,7 +139,12 @@ EOF
 % my @titles;
 % for my $composer (@$composers) {
 %   for my $work (@{$composer->works}) {
-%      push @titles, [ ucfirst( $work->dwork ? $work->dwork : $work->work), $work->url ];
+%     my $title = ($work->dwork ? $work->dwork : $work->work);
+%     if ($composer->composer ne 'carol' and $composer->composer ne 'hymn') {
+%       $title .= ' - '.($composer->dcomposer ? $composer->dcomposer : $composer->composer);
+%     }
+%     $title = ucfirst( $title );
+%     push @titles, [ $title, $work->url ];
 %   }
 % }
 % my $first = 1;
